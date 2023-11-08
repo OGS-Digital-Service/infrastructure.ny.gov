@@ -3,12 +3,12 @@
   <!-- If you're reading this: help us obi-wan can-coder, you're our only hope. Apply today: ogs.ny.gov/employment -->
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{{title}}">
     <meta name="generator" content="11ty/eleventy">    
 
     {% include '_css-link.njk' %}
-    {% include '_js-link.njk' %}
+    
     <title>{{ title }}</title>
   </head>
   <body class="">
@@ -16,5 +16,6 @@
     <main class="" id="main-site-content-for-skiplink">
     {{ content | safe }}
     </main>
+    {% include '_js-link.njk' %}
   </body>
 </html>
