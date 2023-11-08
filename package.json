@@ -1,0 +1,17 @@
+{
+  "name": "esri-infrastructure-hub",
+  "version": "1.0.0",
+  "description": "Compartmentalized components for ESRI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx eleventy --serve",
+    "build": "npx eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
