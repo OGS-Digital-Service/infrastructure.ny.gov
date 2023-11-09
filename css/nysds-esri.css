@@ -121,8 +121,20 @@
 
 .global-nav-links {
     display: flex;
+    margin-bottom: 0px;
 }
 
+.global-nav-links a {
+    color:#fff;
+    font-weight: bold;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.global-nav-link-container {
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -201,6 +213,18 @@
 
     .global-nav-links {
         flex-direction: column;
+        width: 100%
+    }
+
+    .global-nav-links li {
+        padding: 20px 0px;
+        width: 100%
+       
+    }
+
+    .global-nav-links li a {
+        width: 100%;
+        display: block;
        
     }
 
