@@ -8,19 +8,21 @@
     border-top: 8px solid;
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
-  }
-  .navbar-inverse .navbar-toggle {
+}
+
+.navbar-inverse .navbar-toggle {
     border-color: #154973;
-  }
+}
 
-  .navbar-inverse .navbar-toggle:hover {
+.navbar-inverse .navbar-toggle:hover {
     border-color: #fff;
-  }
+}
 
-  .navbar-inverse .navbar-toggle:focus {
+.navbar-inverse .navbar-toggle:focus {
     border-color: #fff;
     background: none;
-  }
+}
+
 .navbar-default {
     border-bottom: none;
     background: #fff;
@@ -45,7 +47,6 @@
 .site-logo img {
     padding-right: 50px;
     border-right: 1px solid #ccc;
-    
 }
 
 .unav-container {
@@ -59,10 +60,7 @@
     list-style-type: none;
     display: flex;
     background: #fff;
-
 }
-
-
 
 .unav-links li {
     padding: 10px;
@@ -96,18 +94,15 @@
     background: #154973 !important;
     display: flex;
     align-items: center;
-    
 }
 
 .global-nav-menu {
     float: left !important;
     margin-left: 25px;
-
 }
 
 .global-nav-menu:hover {
     background: none !important;
-
 }
 
 .global-nav-title {
@@ -144,8 +139,7 @@
     align-items: center;
 }
 
-
-
+/* media queries */
 @media (min-width: 768px) {
     .row-collapse {
         display: none !important;
@@ -162,7 +156,6 @@
     }
 }
 
-
 @media (max-width: 992px) {
     .unav-links {
         flex-direction: row;
@@ -175,11 +168,7 @@
     .site-logo img {
         padding-right: 30px;
     }
-
 }
-
-
-
 
 @media (max-width: 768px) {
     .unav-links {
@@ -209,14 +198,12 @@
     .global-nav {
         flex-direction: column;
         justify-content: flex-start;
-        
     }
 
     .global-nav-inner {
         display: flex;
         width: 100%;
         height: 80px;
-        
     }
 
     .global-nav-links {
@@ -227,17 +214,14 @@
     .global-nav-links li {
         padding: 20px 0px;
         border-bottom: 1px solid rgba(255,255,255,0.2);
-       
     }
 
     .global-nav-links li a {
         width: 100%;
         display: block;
-       
     }
 
     #global-navigation {
         width: 100%;
     }
-
 }
