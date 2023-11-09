@@ -1,67 +1,133 @@
 
-.first-tier {
-    height: 110px;
-    margin-bottom: 0px;
-    background-color: #fff;
-    margin-left: 0px;
+.caret-large {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 8px solid;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
   }
-  
-  .first-tier .nav > li > a {
-    margin-top: 5px;
-    padding: 3px 6px;
-    color: #000000;
-  }
-  
-  .first-tier .nav > li > a:focus,
-  .first-tier .nav>li>a:hover {
-    background-color: #fff;
-    color: #000000;
-  }
-  
-  .first-tier .site-logo img {
-     /*vertical-align: middle;*/
-    padding: -20px;
-  }
-  
-  .first-tier h1 {
-    display: inline;
-    font-size: 25px;
-    color: #000000;
-  }
-  
-  .second-tier {
-    margin-bottom: 0px;
-    margin-left: 40px;
-    background-color: #0B5583;
-  }
-  
-  .site-header .navbar-header img {
-    /*vertical-align: middle;*/
-    height: 40px;
+.navbar-default {
+    border-bottom: none;
+    background: #fff;
+    border-top: none;
+}
+
+.navbar-collapse {
+    border-top: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.site-logo {
+    margin-left:40px;
+    padding: 0px;
+}
+
+.site-logo img {
+    padding-right: 50px;
+    border-right: 1px solid #ccc;
+    
+}
+
+.unav-container {
+    padding: 10px 0px;
+    height: 90px;
+    background: #fff;
+    border-bottom: none;
+}
+
+.unav-links {
+    list-style-type: none;
+    display: flex;
+    background: #fff;
+
+}
+
+
+
+.unav-links li {
     padding: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .first-tier {
-      height: 100px;
+    margin: 10px;
+    font-size: 1.25em;
+}
+
+.unav-links li a {
+    color: #000;
+}
+
+.unav-links li a:hover {
+    color: #0f739d;
+    text-decoration: none;
+}
+
+.unav-links li a:focus {
+    color: #0f739d;
+    text-decoration: none;
+}
+
+.nygov-links {
+    color: #0f739d;
+}
+
+
+@media (min-width: 768px) {
+    .row-collapse {
+        display: none !important;
     }
-  }
-  
-  @media (max-width: 498px) {
-    .navbar-brand {
-      padding: 0px;
+
+    #unav-menu {
+        background: #fff;
+        display:block;
     }
-  }
-  
-  .navbar-inverse .navbar-toggle {
-    border-color: #ffffff;
-  }
-  
-  .navbar-inverse .navbar-toggle:hover {
-    background-color: transparent;
-  }
-  
-  .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #ffffff;
-  }
-  
+}
+
+
+@media (max-width: 992px) {
+    .unav-links {
+        flex-direction: row;
+    }
+
+    .site-logo {
+        margin-left:30px;
+    }
+
+    .site-logo img {
+        padding-right: 30px;
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .unav-links {
+        flex-direction: column;
+    }
+
+    .site-logo {
+        margin-left:20px;
+    }
+
+    .site-logo img {
+        padding-right: 20px;
+    }
+
+    #unav-menu {
+        display: none;
+    }
+
+    .unav-mobile-button {
+        margin-top: 15px;
+    }
+
+    #unav-menu-mobile {
+        margin-left:30px;
+    }
+
+}

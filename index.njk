@@ -4,43 +4,59 @@ title: ESRI Infrastructure Header
 ---
 
 <!-- universal nav area -->
-<nav class="navbar navbar-expand-lg">
-  
-      <div class="">
-        <img src="https://static-assets.ny.gov/sites/all/themes/ny_gov/images/nygov-logo.png" alt="Logo">
-        
-      </div>
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Government</a>
-        </li>
-    </ul>
-
-
-</nav>
 
 
 
-<nav class="navbar navbar-default navbar-static-top first-tier">
-  <div class="container">
-    <div class="navbar-brand">
-      <div class="site-logo">
-        <img src="https://static-assets.ny.gov/sites/all/themes/ny_gov/images/nygov-logo.png" alt="Logo">
-        <h1>My Organization</h1>
-      </div>
-    </div>
+<nav class="navbar navbar-default navbar-static-top container-fluid ">
+  <div class="row unav-container">
+    
+        <div class="site-logo col-md-2 col-sm-2 col-xs-5">
+            <img src="https://static-assets.ny.gov/sites/all/themes/ny_gov/images/nygov-logo.png" alt="Logo">
+        </div>
+
+        <div class="col-xs-4" id="unav-menu">
+            <ul class="list-unstyled unav-links">
+                <li class="">
+                    <a class="" href="https://www.ny.gov/services">Services</a>
+                </li>
+                <li class="">
+                    <a class="" href="https://www.governor.ny.gov/news">News</a>
+                </li>
+                <li class="">
+                    <a class="" href="https://www.ny.gov/agencies">Government</a>
+                </li>
+            </ul>
+        </div>
+       
+        <div class="col-xs-6">
+            <button class="navbar-toggle collapsed unav-mobile-button" data-toggle="collapse" data-target="#unav-menu-mobile">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="caret-large"></span>
+            </button>
+        </div>
+
   </div>
+
+  <div class="row row-collapse">
+     <div class="collapse navbar-collapse " id="unav-menu-mobile">
+            <ul class="list-unstyled unav-links">
+                <li class="">
+                    <a class="" href="https://www.ny.gov/services">Services</a>
+                </li>
+                <li class="">
+                    <a class="" href="https://www.governor.ny.gov/news">News</a>
+                </li>
+                <li class="">
+                    <a class="" href="https://www.ny.gov/agencies">Government</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
 
 
 <!-- global nav area -->
-<nav class="navbar navbar-inverse navbar-static-top second-tier" role="navigation">
+{# <nav class="navbar navbar-inverse navbar-static-top second-tier" role="navigation">
   <div class="navbar-header">
     <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
       <span class="sr-only">Toggle navigation</span>
@@ -52,7 +68,7 @@ title: ESRI Infrastructure Header
   
   
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <div class="container">
+    <div class="">
       <div class="navbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
@@ -66,4 +82,4 @@ title: ESRI Infrastructure Header
     </div>
   </div>
 </nav>
-
+ #}
