@@ -131,6 +131,14 @@
     text-transform: uppercase;
 }
 
+.global-nav-links a:hover {
+    text-decoration: underline;
+}
+
+.global-nav-links a:focus {
+    text-decoration: underline;
+}
+
 .global-nav-link-container {
     display: flex;
     align-items: center;
@@ -218,7 +226,7 @@
 
     .global-nav-links li {
         padding: 20px 0px;
-        width: 100%
+        border-bottom: 1px solid rgba(255,255,255,0.2);
        
     }
 
