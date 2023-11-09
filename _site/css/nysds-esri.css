@@ -9,6 +9,18 @@
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
   }
+  .navbar-inverse .navbar-toggle {
+    border-color: #154973;
+  }
+
+  .navbar-inverse .navbar-toggle:hover {
+    border-color: #fff;
+  }
+
+  .navbar-inverse .navbar-toggle:focus {
+    border-color: #fff;
+    background: none;
+  }
 .navbar-default {
     border-bottom: none;
     background: #fff;
@@ -21,6 +33,8 @@
 
 .navbar {
     margin-bottom: 0;
+    border-radius: 0;
+    border: none;
 }
 
 .site-logo {
@@ -73,6 +87,42 @@
 .nygov-links {
     color: #0f739d;
 }
+
+.nygov-gold {
+    color: #FACE00;
+}
+
+.global-nav {
+    background: #154973 !important;
+    display: flex;
+    align-items: center;
+}
+
+.global-nav-menu {
+    float: left !important;
+    margin-left: 25px;
+
+}
+
+.global-nav-menu:hover {
+    background: none !important;
+
+}
+
+.global-nav-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.global-nav-links {
+    display: flex;
+}
+
+
 
 
 @media (min-width: 768px) {
@@ -128,6 +178,27 @@
 
     #unav-menu-mobile {
         margin-left:30px;
+    }
+
+    .global-nav {
+        flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+
+    .global-nav-inner {
+        display: flex;
+        width: 100%;
+        
+    }
+
+    .global-nav-links {
+        flex-direction: column;
+       
+    }
+
+    #global-navigation {
+        width: 100%;
     }
 
 }
