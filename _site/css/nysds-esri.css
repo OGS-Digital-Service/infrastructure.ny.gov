@@ -13,6 +13,8 @@
     border-left: 8px solid transparent;
     color: #000;
 }
+
+
 .navbar-inverse .navbar-toggle {
     border-color: #154973;
 }
@@ -59,6 +61,8 @@
     height: 90px;
     background: #fff;
     border-bottom: none;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 .unav-links {
@@ -116,7 +120,7 @@
 }
 
 .global-nav-title {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
@@ -137,7 +141,7 @@
 .global-nav-links a {
     color:#fff;
     font-weight: bold;
-    padding: 0 20px;
+    padding: 0 40px;
     text-transform: uppercase;
 }
 
@@ -159,6 +163,8 @@
     color: #fff;
     border: none;
     box-shadow: none;
+    border-radius: 0px;
+    width: 100%;
 }
 
 .dropdown-menu li {
@@ -168,6 +174,8 @@
 .dropdown-menu li a {
     color: #fff;
     font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .dropdown-menu li a:hover {
@@ -211,22 +219,19 @@
 
 
 /* media queries */
-@media (min-width: 768px) { 
-    
-    /* #global-navigation {
-        display: none;
-    } */
-
-    /* .navbar-collapse{
-        display: none ;
-    } */
-}
-
-
 
 @media (min-width: 992px) {
     .navbar-toggle {
         display: none;
+    }
+
+    .dropdown-menu {
+        width: initial;
+    }
+
+    .dropdown-menu li a {
+        margin-left: auto;
+        text-align: initial;
     }
 
     .row-collapse {
@@ -243,7 +248,7 @@
 
     .site-logo img {
         padding-right: 20px;
-        
+        padding-left:30px;
     }
 
     #unav-menu {
@@ -269,7 +274,7 @@
     .global-nav-inner {
         display: flex;
         min-width: fit-content;
-        margin-left: 30px;
+        margin-left: 45px;
         align-content: center;
     }
 
@@ -290,5 +295,11 @@
     .unav-links li {
         border-bottom: none;
         margin-right: 20px;
+    }
+
+    .global-nav-links a {
+        
+        padding: 0 25px;
+    
     }
 }
