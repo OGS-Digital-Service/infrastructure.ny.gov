@@ -1,13 +1,13 @@
 <!-- universal nav area -->
-<nav class="navbar navbar-default navbar-static-top container-fluid ">
+<nav class="navbar navbar-default navbar-static-top container-fluid">
     <div class="row unav-container">
-          <div class="site-logo col-lg-1 col-md-2 col-sm-2 col-xs-5">
+          <div class="site-logo col-sm-1 col-xs-5">
               <a href="https://www.ny.gov" class="">
               <span class="sr-only"> State of New York Website </span>
-              <img src="https://static-assets.ny.gov/sites/all/themes/ny_gov/images/nygov-logo.png" alt="Logo">
-              </a>
+              <img src="https://static-assets.ny.gov/sites/all/themes/ny_gov/images/nygov-logo.png" alt="State of New York Logo">
+               </a>
           </div>
-          <div class="col-xs-4" id="unav-menu">
+          <div class="col-md-6 col-xs-4" id="unav-menu">
               <ul class="list-unstyled unav-links">
                   <li class="">
                       <a class="" href="https://www.ny.gov/services">Services</a>
@@ -20,7 +20,7 @@
                   </li>
               </ul>
           </div>
-          <div class="col-xs-6">
+          <div class="col-md-6">
               <button class="navbar-toggle collapsed unav-mobile-button" data-toggle="collapse" data-target="#unav-menu-mobile">
                   <span class="sr-only">Toggle new york state navigation</span>
                   <span class="caret-large"></span>
@@ -28,7 +28,7 @@
           </div>
     </div>
     <div class="row row-collapse">
-       <div class="collapse navbar-collapse " id="unav-menu-mobile">
+       <div class=" collapse" id="unav-menu-mobile">
               <ul class="list-unstyled unav-links">
                   <li class="">
                       <a class="" href="https://www.ny.gov/services">Services</a>
@@ -43,7 +43,6 @@
           </div>
       </div>
   </nav>
-  
   
   <!-- global nav area -->
   <nav class="navbar navbar-inverse global-nav" role="navigation">
@@ -55,20 +54,24 @@
         <span class="icon-bar"></span>
       </button>
       <div class="global-nav-title">
-          <a href=""> <span class="nygov-gold">NYS </span> Infrastructure Hub </span></a>
+          <a href="https://ny-infrastructure-hub-sharegisny.hub.arcgis.com/"> <span class="nygov-gold">Infrastructure </span> Hub</a>
       </div>
     </div>
-    <div class="collapse navbar-collapse " id="global-navigation">
+    <div class=" collapse " id="global-navigation">
         <div class="navbar global-nav-link-container">
           <ul class="list-unstyled global-nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="">Projects Map</a></li>
-            <li><a href="">Programs</a></li>
-            <li><a href="">Resources</a></li>
-            <li><a href="">Funding Opportunities</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="" role="button">Programs <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="/pages/state-programs">State Programs</a></li>
+                    <li><a href="/pages/fed-programs">Federal Programs</a></li>
+                </ul>
+            </li>
+            <li><a href="/pages/infrastructure-investments">Projects Map</a></li>
+            <li><a href="/pages/funding-opportunities">Funding Opportunities</a></li>
+            <li><a href="/pages/resources">Resources</a></li>
+            <li><a href="https://www.governor.ny.gov/keywords/infrastructure" target="_blank">Infrastructure News</a></li>
           </ul>
         </div>
     </div>
   </nav>
-  

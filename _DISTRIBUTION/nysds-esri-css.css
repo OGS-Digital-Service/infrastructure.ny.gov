@@ -1,3 +1,6 @@
+#unav-menu {
+    display: none;
+}
 
 .caret-large {
     display: inline-block;
@@ -8,7 +11,9 @@
     border-top: 8px solid;
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
+    color: #000;
 }
+
 .navbar-inverse .navbar-toggle {
     border-color: #154973;
 }
@@ -55,18 +60,24 @@
     height: 90px;
     background: #fff;
     border-bottom: none;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 .unav-links {
     list-style-type: none;
     display: flex;
+    flex-direction: column;
     background: #fff;
+    padding-left: 30px;
 }
 
 .unav-links li {
     padding: 10px;
     margin: 10px;
     font-size: 1.25em;
+    border-bottom: 1px solid #ccc;
+    margin-right: 50px;
 }
 
 .unav-links li a {
@@ -94,7 +105,8 @@
 .global-nav {
     background: #154973 !important;
     display: flex;
-    align-items: center;
+    min-height: 80px;
+    flex-direction: column;
 }
 
 .global-nav-menu {
@@ -107,7 +119,7 @@
 }
 
 .global-nav-title {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
@@ -128,7 +140,7 @@
 .global-nav-links a {
     color:#fff;
     font-weight: bold;
-    padding: 0 20px;
+    padding: 0 40px;
     text-transform: uppercase;
 }
 
@@ -145,40 +157,84 @@
     align-items: center;
 }
 
+.dropdown-menu {
+    background:#154973;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.dropdown-menu li {
+    padding: 10px 0px
+}
+
+.dropdown-menu li a {
+    color: #fff;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dropdown-menu li a:hover {
+    color: #face00;
+    background: transparent;
+    text-decoration: underline;
+}
+
+.dropdown-menu li a:focus {
+    color: #face00;
+    background: transparent;
+    text-decoration: underline;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.global-nav-inner {
+    display: flex;
+    align-content: center;
+    min-height: 80px;
+}
+
+.global-nav-links {
+    flex-direction: column;
+    width: 100%
+}
+
+.global-nav-links li {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.global-nav-links li a {
+    width: 100%;
+    display: block;
+}
+
 /* media queries */
-@media (min-width: 768px) {
+@media (min-width: 992px) {
+    .navbar-toggle {
+        display: none;
+    }
+
+    .dropdown-menu {
+        width: initial;
+    }
+
+    .dropdown-menu li a {
+        margin-left: auto;
+        text-align: initial;
+    }
+
     .row-collapse {
         display: none !important;
     }
 
-    #unav-menu {
-        background: #fff;
-        display:block;
-    }
-
-    .global-nav {
-        height: 80px;
-        padding-left: 50px;
-    }
-}
-
-@media (max-width: 992px) {
     .unav-links {
         flex-direction: row;
-    }
-
-    .site-logo {
-        margin-left:30px;
-    }
-
-    .site-logo img {
-        padding-right: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    .unav-links {
-        flex-direction: column;
     }
 
     .site-logo {
@@ -187,10 +243,13 @@
 
     .site-logo img {
         padding-right: 20px;
+        padding-left:30px;
     }
 
     #unav-menu {
-        display: none;
+        display: block;
+        background: #fff;
+        margin-left: 40px;
     }
 
     .unav-mobile-button {
@@ -202,32 +261,38 @@
     }
 
     .global-nav {
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-start;
+        align-items: center;
     }
 
     .global-nav-inner {
         display: flex;
-        width: 100%;
-        height: 80px;
+        min-width: fit-content;
+        margin-left: 45px;
+        align-content: center;
     }
 
     .global-nav-links {
-        flex-direction: column;
-        width: 100%
+        flex-direction: row;
     }
 
     .global-nav-links li {
         padding: 20px 0px;
-        border-bottom: 1px solid rgba(255,255,255,0.2);
-    }
-
-    .global-nav-links li a {
-        width: 100%;
-        display: block;
+        border-bottom: none;
     }
 
     #global-navigation {
         width: 100%;
+        display: block;
+    }
+
+    .unav-links li {
+        border-bottom: none;
+        margin-right: 20px;
+    }
+
+    .global-nav-links a {
+        padding: 0 25px;
     }
 }

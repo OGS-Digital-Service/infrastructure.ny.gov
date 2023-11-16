@@ -14,7 +14,6 @@
     color: #000;
 }
 
-
 .navbar-inverse .navbar-toggle {
     border-color: #154973;
 }
@@ -200,7 +199,6 @@
     min-height: 80px;
 }
 
-
 .global-nav-links {
     flex-direction: column;
     width: 100%
@@ -216,10 +214,7 @@
     display: block;
 }
 
-
-
 /* media queries */
-
 @media (min-width: 992px) {
     .navbar-toggle {
         display: none;
@@ -298,8 +293,6 @@
     }
 
     .global-nav-links a {
-        
         padding: 0 25px;
-    
     }
 }
