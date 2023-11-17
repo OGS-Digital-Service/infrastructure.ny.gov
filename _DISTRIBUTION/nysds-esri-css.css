@@ -214,6 +214,11 @@
     display: block;
 }
 
+.row-collapse {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 /* media queries */
 @media (min-width: 992px) {
     .navbar-toggle {
