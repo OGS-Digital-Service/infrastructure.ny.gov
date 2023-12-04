@@ -1,1 +1,13 @@
-<h1> yep </h1>
+<section class="">
+    <ul class="filtercard-list">
+        {% for card in params.cards %}
+            <li class="filtercard-list-item">
+                <p class="">{{card.category}}</p>
+                <a href="{{card.link}}" class="filtercard-link">{{card.title}}</a>
+                {% if card.description %}
+                <p class="filtercard-description">{{card.description}}</p>
+                {%endif%}
+            </li>
+        {% endfor %}
+    </ul>
+</section>

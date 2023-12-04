@@ -219,6 +219,18 @@
     margin-bottom: 0px;
 }
 
+/* filtercards */
+.filtercard-list {
+    list-style-type: none;
+}
+
+.filtercard-list-item {
+    background: #ededed;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
 /* media queries */
 @media (min-width: 992px) {
     .navbar-toggle {
