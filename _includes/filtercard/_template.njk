@@ -1,11 +1,25 @@
-<section class="">
+<section class="filtercards">
+    <h3 class="filtercard-heading"> {{params.heading}}</h3>
     <ul class="filtercard-list">
         {% for card in params.cards %}
             <li class="filtercard-list-item">
-                <p class="">{{card.category}}</p>
-                <a href="{{card.link}}" class="filtercard-link">{{card.title}}</a>
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                        {%if card.category === "BIL"%}
+                            Bipartisan Infrastructure Law (BIL)
+                        {%endif%}
+                        {%if card.category === "IRA"%}
+                            Infrastructure REduction Act (IRA)
+                        {%endif%}
+                        </span>
+                    {%if card.agency %}
+                        <span class="filtercard-agency">{{card.agency}}</span>
+                    {%endif%}
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="{{card.link}}" class="filtercard-link">{{card.title}}</a>
                 {% if card.description %}
-                <p class="filtercard-description">{{card.description}}</p>
+                    <p class="filtercard-description">{{card.description}}</p>
                 {%endif%}
             </li>
         {% endfor %}

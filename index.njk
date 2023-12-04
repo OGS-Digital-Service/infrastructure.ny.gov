@@ -4,17 +4,43 @@ title: ESRI Infrastructure Header
 ---
 {% from './_includes/_components.njk' import filtercard  %}
 
-<div style="width: 1170px; margin:0 auto;">
-<h3 class="nygov-filter-heading"> Announcements </h3>
+
+
 
 {{
     filtercard({
+        heading:"Announcements",
         cards:[
             {
-                category:"Bipartisan Infrastructure Law (BIL)",
+                category:"BIL",
                 title:"Biden-Harris Administration Announces $3.5 Billion for Largest Ever Investment in America’s Electric Grid, Deploying More Clean Energy, Lowering Costs, and Creating Union Jobs",
                 link:"https://www.energy.gov/articles/biden-harris-administration-announces-35-billion-largest-ever-investment-americas-electric",
-                description:"",
+                description:""
+            }
+        ]
+        
+
+    })
+}}
+
+{{
+    filtercard({
+        heading:"Federal Guidance Updates",
+        cards:[
+            {
+                category:"BIL",
+                agency:"department of transportation (dot)",
+                title:"Biden-Harris Administration Announces $1.5 Billion Available through the 2024 RAISE Grant Program",
+                link:"https://www.transportation.gov/briefing-room/biden-harris-administration-announces-15-billion-available-through-2024-raise-grant",
+                description:"On November 30th, the U.S. Department of Transportation has published a Notice of Funding Opportunity (NOFO) for $1.5 billion in grant funding through the Rebuilding American Infrastructure with Sustainability and Equity (RAISE) discretionary grant program for 2024.",
+                date:""
+            },
+            {
+                category:"IRA",
+                agency: "white house",
+                title:"Biden-⁠Harris Administration Continues to Accelerate Environmental Justice in Disadvantaged Communities through the President’s Investing in America Agenda",
+                link:"https://www.whitehouse.gov/ceq/news-updates/2023/11/29/biden-harris-administration-continues-to-accelerate-environmental-justice-in-disadvantaged-communities-through-the-presidents-investing-in-america-agenda/",
+                description:"On November 29th, the Biden-Harris Administration published the list of Inflation Reduction Act programs working to advance the President’s Justice40 Initiative, which aims to deliver 40 percent of the overall benefits of certain federal investments to disadvantaged communities that are marginalized by underinvestment and overburdened by pollution.",
                 date:""
             }
         ]
@@ -23,4 +49,3 @@ title: ESRI Infrastructure Header
     })
 }}
 
-</div>
