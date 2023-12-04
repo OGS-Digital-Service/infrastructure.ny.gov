@@ -4,7 +4,7 @@
   "description": "Compartmentalized components for ESRI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "pa11y-ci",
     "start": "npx eleventy --serve",
     "build": "npx eleventy"
   },
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "pa11y-ci-reporter-html": "^6.0.2"
   }
 }

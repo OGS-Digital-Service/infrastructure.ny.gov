@@ -2,6 +2,7 @@ README.md
 tailwind-setup.css
 .eleventy.js
 tailwind.config.js
+.pa11yci
 /textarea-content
 /reports
 /_base
