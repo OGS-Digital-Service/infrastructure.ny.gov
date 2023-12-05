@@ -292,13 +292,24 @@
 
 .filtercards-form {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    
+}
+
+.filtercards-form legend { 
+    font-size: 18px;
+    padding: 10px;
+    font-weight:bold;
+    border: 0;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .filtercards-form label { 
     font-size: 16px;
-    padding: 10px;
+    padding: 10px 15px;
+    font-weight: normal;
 }
 
 
@@ -398,4 +409,10 @@
     .filtercard-category {
         padding-bottom: 0;
     }
+
+    .filtercards-form {
+        flex-direction:row;
+        justify-content: center;
+    }
+
 }

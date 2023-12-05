@@ -95,7 +95,15 @@
     
 
 
-
+<fieldset class="filtercards-form">
+    <legend class="filtercards-label"> Filter News</legend>
+    <label for="filter-first"> Bipartisan Infrastructure Law (BIL) 
+        <input type="radio" id="filter-first" name="newsfilter" value="bil" />
+    </label>
+    <label for="filter-second"> Inflation Reduction Act (IRA) 
+        <input type="radio" id="filter-second" name="newsfilter" value="ira"/>
+    </label>
+</fieldset>
     
 
 
@@ -293,26 +301,26 @@
         const ira = document.querySelectorAll(".ira");
         selectBil.addEventListener('click', filterNews)
         selectIra.addEventListener('click', filterNews)
-
-
-      function filterNews () {
-          if (input[value]) {
+      function filterNews (e) {
+          if (e.target === selectBil) {
             for (var i = 0; i < ira.length; ++i) {
-                ira[i].classList.toggle('hidden');
+                ira[i].classList.add('hidden');
                 }
-        }
-        else if (e.target === selectIra) {
             for (var i = 0; i < bil.length; ++i) {
-                bil[i].classList.toggle('hidden');
+                bil[i].classList.remove('hidden');
                 }
+            }
+        else if (e.target === selectIra) {
+            for (var i = 0; i < ira.length; ++i) {
+                ira[i].classList.remove('hidden');
+                }
+            for (var i = 0; i < bil.length; ++i) {
+                bil[i].classList.add('hidden');
+                }
+            }
         }
-        }
-      }
     </script>
 
-    
-
-    
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
