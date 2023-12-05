@@ -96,12 +96,14 @@
 
 
 
+    
+
 
 <section class="filtercards">
     <h3 class="filtercard-heading"> Announcements</h3>
-    <ul class="filtercard-list">
+    <ul class="filtercard-list" aria-live="polite">
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item bil">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
@@ -116,7 +118,7 @@
                 
             </li>
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item bil">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
@@ -131,7 +133,7 @@
                 
             </li>
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item bil">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
@@ -146,7 +148,7 @@
                 
             </li>
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item bil">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
@@ -161,7 +163,7 @@
                 
             </li>
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item bil">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
@@ -176,7 +178,7 @@
                 
             </li>
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item bil">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
@@ -191,7 +193,7 @@
                 
             </li>
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item bil">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
@@ -206,12 +208,12 @@
                 
             </li>
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item ira">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
                         
-                            Infrastructure Reduction Act (IRA)
+                            Inflation Reduction Act (IRA)
                         
                         </span>
                     
@@ -221,12 +223,12 @@
                 
             </li>
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item ira">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
                         
-                            Infrastructure Reduction Act (IRA)
+                            Inflation Reduction Act (IRA)
                         
                         </span>
                     
@@ -241,9 +243,9 @@
 
 <section class="filtercards">
     <h3 class="filtercard-heading"> Federal Guidance Updates</h3>
-    <ul class="filtercard-list">
+    <ul class="filtercard-list" aria-live="polite">
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item bil">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
@@ -262,12 +264,12 @@
                 
             </li>
         
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item ira">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         
                         
-                            Infrastructure Reduction Act (IRA)
+                            Inflation Reduction Act (IRA)
                         
                         </span>
                     
@@ -284,7 +286,33 @@
     </ul>
 </section>
 
+    <script>
+        const selectBil = document.getElementById('filter-first');
+        const selectIra = document.getElementById('filter-second');
+        const bil = document.querySelectorAll(".bil");
+        const ira = document.querySelectorAll(".ira");
+        selectBil.addEventListener('click', filterNews)
+        selectIra.addEventListener('click', filterNews)
 
+
+      function filterNews () {
+          if (input[value]) {
+            for (var i = 0; i < ira.length; ++i) {
+                ira[i].classList.toggle('hidden');
+                }
+        }
+        else if (e.target === selectIra) {
+            for (var i = 0; i < bil.length; ++i) {
+                bil[i].classList.toggle('hidden');
+                }
+        }
+        }
+      }
+    </script>
+
+    
+
+    
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

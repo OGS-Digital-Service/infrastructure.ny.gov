@@ -5,6 +5,15 @@ title: ESRI Infrastructure Header
 {% from './_includes/_components.njk' import filtercard  %}
 
 
+{# <fieldset class="filtercards-form">
+    <legend class=""> Filter News By </legend>
+    <label for="filter-first"> Bipartisan Infrastructure Law (BIL) </label>
+    <input type="radio" id="filter-first" name="newsfilter" value="bil" />
+
+    <label for="filter-second"> Inflation Reduction Act (IRA) </label>
+    <input type="radio" id="filter-second" name="newsfilter" value="ira"/>
+</fieldset> #}
+    
 
 
 {{
@@ -88,3 +97,49 @@ title: ESRI Infrastructure Header
     })
 }}
 
+    <script>
+        const selectBil = document.getElementById('filter-first');
+        const selectIra = document.getElementById('filter-second');
+        const bil = document.querySelectorAll(".bil");
+        const ira = document.querySelectorAll(".ira");
+        selectBil.addEventListener('click', filterNews)
+        selectIra.addEventListener('click', filterNews)
+
+
+      function filterNews () {
+          if (input[value]) {
+            for (var i = 0; i < ira.length; ++i) {
+                ira[i].classList.toggle('hidden');
+                }
+        }
+        else if (e.target === selectIra) {
+            for (var i = 0; i < bil.length; ++i) {
+                bil[i].classList.toggle('hidden');
+                }
+        }
+        }
+      }
+    </script>
+
+    {# const selectBil = document.getElementById('filter-first');
+        const selectIra = document.getElementById('filter-second');
+        const bil = document.querySelectorAll(".bil");
+        const ira = document.querySelectorAll(".ira");
+
+        selectBil.addEventListener('click', highlight)
+        selectIra.addEventListener('click', highlight)
+        
+        function highlight() {
+        if (input[value]) {
+            for (var i = 0; i < ira.length; ++i) {
+                ira[i].classList.toggle('hidden');
+                }
+        }
+        else if (e.target === selectIra) {
+            for (var i = 0; i < bil.length; ++i) {
+                bil[i].classList.toggle('hidden');
+                }
+        }
+        } #}
+
+    

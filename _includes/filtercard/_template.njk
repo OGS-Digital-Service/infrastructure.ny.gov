@@ -1,15 +1,15 @@
 <section class="filtercards">
     <h3 class="filtercard-heading"> {{params.heading}}</h3>
-    <ul class="filtercard-list">
+    <ul class="filtercard-list" aria-live="polite">
         {% for card in params.cards %}
-            <li class="filtercard-list-item">
+            <li class="filtercard-list-item {%if card.category === "BIL"%}bil{%endif%}{%if card.category === "IRA"%}ira{%endif%}">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         {%if card.category === "BIL"%}
                             Bipartisan Infrastructure Law (BIL)
                         {%endif%}
                         {%if card.category === "IRA"%}
-                            Infrastructure Reduction Act (IRA)
+                            Inflation Reduction Act (IRA)
                         {%endif%}
                         </span>
                     {%if card.agency %}

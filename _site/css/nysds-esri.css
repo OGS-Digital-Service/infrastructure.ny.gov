@@ -2,6 +2,10 @@
     display: none;
 }
 
+.hidden {
+    display: none !important;
+}
+
 .caret-large {
     display: inline-block;
     width: 0;
@@ -284,6 +288,17 @@
 }
 .filtercard-description {
     margin: 15px 0px 0px;
+}
+
+.filtercards-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filtercards-form label { 
+    font-size: 16px;
+    padding: 10px;
 }
 
 
