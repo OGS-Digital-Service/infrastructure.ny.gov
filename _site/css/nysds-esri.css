@@ -249,14 +249,14 @@
 
 .filtercard-top {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 
 .filtercard-category {
     font-size: 14px;
     margin: 0px;
+    padding-bottom: 5px;
 }
 
 .filtercard-agency {
@@ -373,5 +373,14 @@
     .filtercards {
         width: 75%;
         margin: 0 auto;
+    }
+
+    .filtercard-top {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .filtercard-category {
+        padding-bottom: 0;
     }
 }
