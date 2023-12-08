@@ -285,7 +285,19 @@
     font-weight: bold;
     font-size: 17px;
     line-height: 1.15em;
+    text-decoration: none;
 }
+
+.filtercard-link:hover {
+    color:#000;
+    text-decoration: underline;
+}
+
+.filtercard-link:focus {
+    color:#000;
+    text-decoration: underline;
+}
+
 .filtercard-description {
     margin: 15px 0px 0px;
 }

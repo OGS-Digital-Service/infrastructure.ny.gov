@@ -1,0 +1,90 @@
+---
+layout: render-layout.njk
+title: ESRI Infrastructure Header
+---
+{% from './_includes/_components.njk' import filtercard  %}
+
+<style>
+{% include './_includes/filtercard/_filtercards.css'  %}
+</style>
+
+{{
+    filtercard({
+        heading:"Announcements",
+        cards:[
+            {
+                category:"BIL",
+                title:"Biden-Harris Administration Announces New Action to Protect Communities from Lead Exposure",
+                link:"https://www.whitehouse.gov/briefing-room/statements-releases/2023/11/30/fact-sheet-biden-harris-administration-announces-new-action-to-protect-communities-from-lead-exposure/"
+            },
+            {
+                category:"BIL",
+                title:"Biden-Harris Administration Announces Major Bipartisan Infrastructure Law Investments in Ferry Service",
+                link:"https://www.transportation.gov/briefing-room/biden-harris-administration-announces-new-freight-office-and-major-progress"
+            },
+            {
+                category:"BIL",
+                title:"Biden-Harris Administration Announces New Freight Office and Major Progress Strengthening Supply Chains",
+                link:"https://www.transportation.gov/briefing-room/biden-harris-administration-announces-new-freight-office-and-major-progress"
+            },
+            {
+                category:"BIL",
+                title:"Biden-Harris Administration Announces Actions to Strengthen Clean Energy Supply Chains and Accelerate Manufacturing in Energy and Industrial Communities",
+                link:"https://www.energy.gov/articles/biden-harris-administration-announces-actions-strengthen-clean-energy-supply-chains-and"
+            },
+            {
+                category:"BIL",
+                title:"NOAA and National Fish and Wildlife Foundation Announce $144 Million in Grants to Support Coastal Resilience Projects",
+                link:"https://www.noaa.gov/news-release/noaa-and-nfwf-announce-144-million-in-grants-to-support-coastal-resilience-projects"
+            },
+            {
+                category:"BIL",
+                title:"Governor Hochul Announces $100 Million Investment for Roadway Repaving and Resiliency Enhancements for Roadways Impacted by Extreme Weather",
+                link:"https://www.governor.ny.gov/news/state-prepares-extreme-winter-weather-governor-hochul-announces-100-million-investment-roadway"
+            },
+            {
+                category:"BIL",
+                title:"Governor Hochul Announces New York Awarded Nearly $24 Million in Federal Funding to Strengthen and Modernize State’s Electric Grid",
+                link:"https://www.governor.ny.gov/news/governor-hochul-announces-new-york-awarded-nearly-24-million-federal-funding-strengthen-and"
+            },
+            {
+                category:"IRA",
+                title:"Biden-Harris Administration awards $7.2 million to improve climate projections of extreme weather through the Investing in America agenda",
+                link:"https://www.noaa.gov/news-release/biden-harris-administration-awards-72-million-to-improve-climate-projections"
+            },
+            {
+                category:"IRA",
+                title:"USDA Provides $208 Million to Help Prevent Guaranteed Borrower Foreclosures and to Assist Emergency Loan Borrowers",
+                link:"https://www.usda.gov/media/press-releases/2023/11/30/usda-provides-208-million-help-prevent-guaranteed-borrower"
+            }
+        ]
+        
+
+    })
+}}
+
+{{
+    filtercard({
+        heading:"Federal Guidance Updates",
+        cards:[
+            {
+                category:"BIL",
+                agency:"department of transportation (dot)",
+                title:"Biden-Harris Administration Announces $1.5 Billion Available through the 2024 RAISE Grant Program",
+                link:"https://www.transportation.gov/briefing-room/biden-harris-administration-announces-15-billion-available-through-2024-raise-grant",
+                description:"On November 30th, the U.S. Department of Transportation has published a Notice of Funding Opportunity (NOFO) for $1.5 billion in grant funding through the Rebuilding American Infrastructure with Sustainability and Equity (RAISE) discretionary grant program for 2024.",
+                date:""
+            },
+            {
+                category:"IRA",
+                agency: "white house",
+                title:"Biden-⁠Harris Administration Continues to Accelerate Environmental Justice in Disadvantaged Communities through the President’s Investing in America Agenda",
+                link:"https://www.whitehouse.gov/ceq/news-updates/2023/11/29/biden-harris-administration-continues-to-accelerate-environmental-justice-in-disadvantaged-communities-through-the-presidents-investing-in-america-agenda/",
+                description:"On November 29th, the Biden-Harris Administration published the list of Inflation Reduction Act programs working to advance the President’s Justice40 Initiative, which aims to deliver 40 percent of the overall benefits of certain federal investments to disadvantaged communities that are marginalized by underinvestment and overburdened by pollution.",
+                date:""
+            }
+        ]
+        
+
+    })
+}}
