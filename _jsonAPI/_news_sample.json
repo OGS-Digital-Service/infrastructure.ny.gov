@@ -1,0 +1,207 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "node--news",
+            "id": "dd316d10-356a-42fd-abf9-c77501dea008",
+            "links": {
+                "self": {
+                    "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008?resourceVersion=id%3A485671"
+                }
+            },
+            "attributes": {
+                "drupal_internal__nid": 140441,
+                "drupal_internal__vid": 485671,
+                "langcode": "en",
+                "revision_timestamp": "2023-12-01T19:12:20+00:00",
+                "revision_log": null,
+                "status": true,
+                "title": "Governor Hochul Announces Substantial Completion of $84.2 Million Infrastructure Improvement Project on the Thruway in Onondaga County",
+                "created": "2023-12-01T18:26:14+00:00",
+                "changed": "2023-12-01T19:12:20+00:00",
+                "promote": true,
+                "sticky": false,
+                "default_langcode": true,
+                "revision_translation_affected": true,
+                "moderation_state": "published",
+                "scheduled_transition_date": [],
+                "scheduled_transition_state": [],
+                "metatag": null,
+                "path": {
+                    "alias": "\/news\/governor-hochul-announces-substantial-completion-842-million-infrastructure-improvement",
+                    "pid": 174561,
+                    "langcode": "en"
+                },
+                "field_n_date_toggle": true,
+                "field_n_description": {
+                    "value": "\u003Cp\u003EGovernor Hochul announced the substantial completion of a $84.2 million \u003Ca href=\u0022https:\/\/www.governor.ny.gov\/news\/governor-hochul-announces-construction-underway-842-million-infrastructure-improvement-project\u0022\u003Einfrastructure improvement project\u003C\/a\u003E on a section of the Thruway (I-90) in Onondaga County.\u0026nbsp;\u003C\/p\u003E",
+                    "format": "rich_text",
+                    "processed": "\u003Cp\u003EGovernor Hochul announced the substantial completion of a $84.2 million \u003Ca href=\u0022https:\/\/www.governor.ny.gov\/news\/governor-hochul-announces-construction-underway-842-million-infrastructure-improvement-project\u0022\u003Einfrastructure improvement project\u003C\/a\u003E on a section of the Thruway (I-90) in Onondaga County. \u003C\/p\u003E",
+                    "summary": ""
+                },
+                "field_n_display_title": null,
+                "field_n_location": "Albany, NY",
+                "field_n_meta_tags": null,
+                "field_n_sub_headline": {
+                    "value": "\u003Cp\u003EProject Included Pavement Reconstruction, Bridge Replacement and Rehabilitation\u003C\/p\u003E\u003Cp\u003ENumerous Safety Upgrades Include Wider Shoulders, New Guiderails, New Signage and Striping\u003C\/p\u003E",
+                    "format": "rich_text",
+                    "processed": "\u003Cp\u003EProject Included Pavement Reconstruction, Bridge Replacement and Rehabilitation\u003C\/p\u003E\u003Cp\u003ENumerous Safety Upgrades Include Wider Shoulders, New Guiderails, New Signage and Striping\u003C\/p\u003E"
+                },
+                "field_n_teaser_headline": "Completion of $84.2M Thruway Project in Onondaga County",
+                "field_p_placement": "left"
+            },
+            "relationships": {
+                "node_type": {
+                    "data": {
+                        "type": "node_type--node_type",
+                        "id": "fa5bb986-41d1-42bf-be60-b13557c233e7",
+                        "meta": {
+                            "drupal_internal__target_id": "news"
+                        }
+                    },
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/node_type?resourceVersion=id%3A485671"
+                        },
+                        "self": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/relationships\/node_type?resourceVersion=id%3A485671"
+                        }
+                    }
+                },
+                "revision_uid": {
+                    "data": {
+                        "type": "user--user",
+                        "id": "9daa7b3a-4742-4b6a-b917-f684408316b0",
+                        "meta": {
+                            "drupal_internal__target_id": 46
+                        }
+                    },
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/revision_uid?resourceVersion=id%3A485671"
+                        },
+                        "self": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/relationships\/revision_uid?resourceVersion=id%3A485671"
+                        }
+                    }
+                },
+                "uid": {
+                    "data": {
+                        "type": "user--user",
+                        "id": "9daa7b3a-4742-4b6a-b917-f684408316b0",
+                        "meta": {
+                            "drupal_internal__target_id": 46
+                        }
+                    },
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/uid?resourceVersion=id%3A485671"
+                        },
+                        "self": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/relationships\/uid?resourceVersion=id%3A485671"
+                        }
+                    }
+                },
+                "field_n_featured_image": {
+                    "data": {
+                        "type": "media--image",
+                        "id": "f724a1f5-c4e2-4603-8aa2-03fb1906f2c0",
+                        "meta": {
+                            "drupal_internal__target_id": 872326
+                        }
+                    },
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/field_n_featured_image?resourceVersion=id%3A485671"
+                        },
+                        "self": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/relationships\/field_n_featured_image?resourceVersion=id%3A485671"
+                        }
+                    }
+                },
+                "field_n_keywords": {
+                    "data": [
+                        {
+                            "type": "taxonomy_term--keywords",
+                            "id": "165bbb8d-9778-445c-82b5-787a6944205a",
+                            "meta": {
+                                "drupal_internal__target_id": 1156
+                            }
+                        },
+                        {
+                            "type": "taxonomy_term--keywords",
+                            "id": "1f11acac-e2f6-4bcc-80c0-2a8043456695",
+                            "meta": {
+                                "drupal_internal__target_id": 461
+                            }
+                        }
+                    ],
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/field_n_keywords?resourceVersion=id%3A485671"
+                        },
+                        "self": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/relationships\/field_n_keywords?resourceVersion=id%3A485671"
+                        }
+                    }
+                },
+                "field_n_news_type": {
+                    "data": [
+                        {
+                            "type": "taxonomy_term--news_type",
+                            "id": "0ad36785-631d-45d2-9388-880f651a609d",
+                            "meta": {
+                                "drupal_internal__target_id": 75
+                            }
+                        }
+                    ],
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/field_n_news_type?resourceVersion=id%3A485671"
+                        },
+                        "self": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/relationships\/field_n_news_type?resourceVersion=id%3A485671"
+                        }
+                    }
+                },
+                "field_sections": {
+                    "data": [
+                        {
+                            "type": "paragraph--wysiwyg",
+                            "id": "02b84a99-b33c-4391-a797-ed648722240b",
+                            "meta": {
+                                "target_revision_id": 659306,
+                                "drupal_internal__target_id": 307311
+                            }
+                        },
+                        {
+                            "type": "paragraph--contact",
+                            "id": "d1e38291-1243-4de3-bec8-14ad1e225a04",
+                            "meta": {
+                                "target_revision_id": 659311,
+                                "drupal_internal__target_id": 307316
+                            }
+                        }
+                    ],
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/field_sections?resourceVersion=id%3A485671"
+                        },
+                        "self": {
+                            "href": "https:\/\/nygovernord8dev.prod.acquia-sites.com\/jsonapi\/node\/news\/dd316d10-356a-42fd-abf9-c77501dea008\/relationships\/field_sections?resourceVersion=id%3A485671"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

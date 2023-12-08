@@ -1,8 +1,8 @@
-<section class="filtercards">
+<div class="filtercards">
     <h3 class="filtercard-heading"> {{params.heading}}</h3>
     <ul class="filtercard-list" aria-live="polite">
         {% for card in params.cards %}
-            <li class="filtercard-list-item {%if card.category === "BIL"%}bil{%endif%}{%if card.category === "IRA"%}ira{%endif%}">
+            <li class="filtercard-list-item">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
                         {%if card.category === "BIL"%}
@@ -24,4 +24,4 @@
             </li>
         {% endfor %}
     </ul>
-</section>
+</div>

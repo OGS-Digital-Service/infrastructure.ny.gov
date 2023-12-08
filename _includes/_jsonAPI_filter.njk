@@ -1,0 +1,12 @@
+{# target ID for infrastructure = 461 #}
+https://nygovernord8dev.prod.acquia-sites.com/jsonapi/node/scheduled_event?filter[field_se_keywords.meta.drupal_internal__target_id]=461 
+
+
+{# sort news by infrastructure and changed date #}
+https://nygovernord8dev.prod.acquia-sites.com/jsonapi/node/news?filter[field_n_keywords.meta.drupal_internal__target_id]=461&sort[sort-changed][path]=changed&sort[sort-changed][direction]=DESC
+
+
+{# sort news by infrastructure and created date  #}
+https://nygovernord8dev.prod.acquia-sites.com/jsonapi/node/news?filter[field_n_keywords.meta.drupal_internal__target_id]=461&sort[sort-created][path]=created&sort[sort-created][direction]=DESC
+
+{# we'll need to add extra querystrings for each content type tagged with a keyword since they don't share a field #}
