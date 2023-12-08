@@ -96,8 +96,6 @@
 
 
 
-
-
 <div class="filtercards">
     <h3 class="filtercard-heading"> Announcements</h3>
     <ul class="filtercard-list" aria-live="polite">
@@ -284,33 +282,6 @@
         
     </ul>
 </div>
-
-    <script>
-        const selectBil = document.getElementById('filter-first');
-        const selectIra = document.getElementById('filter-second');
-        const bil = document.querySelectorAll(".bil");
-        const ira = document.querySelectorAll(".ira");
-        selectBil.addEventListener('click', filterNews)
-        selectIra.addEventListener('click', filterNews)
-      function filterNews (e) {
-          if (e.target === selectBil) {
-            for (var i = 0; i < ira.length; ++i) {
-                ira[i].classList.add('hidden');
-                }
-            for (var i = 0; i < bil.length; ++i) {
-                bil[i].classList.remove('hidden');
-                }
-            }
-        else if (e.target === selectIra) {
-            for (var i = 0; i < ira.length; ++i) {
-                ira[i].classList.remove('hidden');
-                }
-            for (var i = 0; i < bil.length; ++i) {
-                bil[i].classList.add('hidden');
-                }
-            }
-        }
-    </script>
 
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

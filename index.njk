@@ -5,17 +5,6 @@ title: ESRI Infrastructure Header
 {% from './_includes/_components.njk' import filtercard  %}
 
 
-{# <fieldset class="filtercards-form">
-    <legend class="filtercards-label"> Filter News</legend>
-    <label for="filter-first"> Bipartisan Infrastructure Law (BIL) 
-        <input type="radio" id="filter-first" name="newsfilter" value="bil" />
-    </label>
-    <label for="filter-second"> Inflation Reduction Act (IRA) 
-        <input type="radio" id="filter-second" name="newsfilter" value="ira"/>
-    </label>
-</fieldset>
-     #}
-
 
 {{
     filtercard({
@@ -97,30 +86,3 @@ title: ESRI Infrastructure Header
 
     })
 }}
-
-    <script>
-        const selectBil = document.getElementById('filter-first');
-        const selectIra = document.getElementById('filter-second');
-        const bil = document.querySelectorAll(".bil");
-        const ira = document.querySelectorAll(".ira");
-        selectBil.addEventListener('click', filterNews)
-        selectIra.addEventListener('click', filterNews)
-      function filterNews (e) {
-          if (e.target === selectBil) {
-            for (var i = 0; i < ira.length; ++i) {
-                ira[i].classList.add('hidden');
-                }
-            for (var i = 0; i < bil.length; ++i) {
-                bil[i].classList.remove('hidden');
-                }
-            }
-        else if (e.target === selectIra) {
-            for (var i = 0; i < ira.length; ++i) {
-                ira[i].classList.remove('hidden');
-                }
-            for (var i = 0; i < bil.length; ++i) {
-                bil[i].classList.add('hidden');
-                }
-            }
-        }
-    </script>
