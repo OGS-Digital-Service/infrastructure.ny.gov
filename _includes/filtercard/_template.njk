@@ -5,6 +5,7 @@
             <li class="filtercard-list-item">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
                         {%if card.category === "BIL"%}
                             Bipartisan Infrastructure Law (BIL)
                         {%endif%}
@@ -13,13 +14,13 @@
                         {%endif%}
                         </span>
                     {%if card.agency %}
-                        <span class="filtercard-agency">{{card.agency}}</span>
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>{{card.agency}}</span>
                     {%endif%}
                     </div>
                     <span class="filtercard-divider" aria-hidden="true"></span>
                     <a href="{{card.link}}" class="filtercard-link">{{card.title}}</a>
                     {%if card.date%}
-                        <span class="filtercard-date"> {{card.date}}</span>
+                        <span class="filtercard-date"> <span class="sr-only">published </span>{{card.date}}</span>
                     {%endif%}
                 {% if card.description %}
                     <p class="filtercard-description">{{card.description}}</p>
