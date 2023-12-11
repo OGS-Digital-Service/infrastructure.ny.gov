@@ -306,7 +306,28 @@
     font-size: 12px;
     font-weight: bold;
     margin-top: 14px;
-    
+}
+
+.filtercard-archive {
+    margin: 15px 0;
+}
+
+.filtercard-archive-button {
+    background:#154973;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #d0d0ce;
+    border-radius: 5px;
+    padding:10px;
+    min-width: 200px;
+}
+
+.filtercard-archive-button:hover {
+    background:#000;
+}
+
+.filtercard-archive-button:focus {
+    background:#000;
 }
 
 
