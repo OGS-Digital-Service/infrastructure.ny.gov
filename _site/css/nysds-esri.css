@@ -299,30 +299,16 @@
 }
 
 .filtercard-description {
-    margin: 15px 0px 0px;
+    margin: 12px 0px 0px;
 }
 
-.filtercards-form {
-    display: flex;
-    flex-direction: column;
+.filtercard-date {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 14px;
     
 }
 
-.filtercards-form legend { 
-    font-size: 18px;
-    padding: 10px;
-    font-weight:bold;
-    border: 0;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.filtercards-form label { 
-    font-size: 16px;
-    padding: 10px 15px;
-    font-weight: normal;
-}
 
 
 /* media queries */
@@ -421,10 +407,4 @@
     .filtercard-category {
         padding-bottom: 0;
     }
-
-    .filtercards-form {
-        flex-direction:row;
-        justify-content: center;
-    }
-
 }

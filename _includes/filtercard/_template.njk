@@ -18,6 +18,9 @@
                     </div>
                     <span class="filtercard-divider" aria-hidden="true"></span>
                     <a href="{{card.link}}" class="filtercard-link">{{card.title}}</a>
+                    {%if card.date%}
+                        <span class="filtercard-date"> {{card.date}}</span>
+                    {%endif%}
                 {% if card.description %}
                     <p class="filtercard-description">{{card.description}}</p>
                 {%endif%}
