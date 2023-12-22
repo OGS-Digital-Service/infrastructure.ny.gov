@@ -1,0 +1,5 @@
+<div class="button-container">
+    {% for button in params.buttons %}
+        <a href="{{button.link}}" class="nysds-button" {%if button.aria %} aria-label="{{button.aria}}"{%endif%}>{{button.title}}</a>
+    {% endfor %}
+</div>
