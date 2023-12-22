@@ -3,30 +3,13 @@ layout: layout.njk
 title: ESRI Infrastructure Header
 ---
 {% from './_includes/_components.njk' import filtercard, card, button  %}
-<style>
-{% include './_includes/button/_button.css'  %}
-</style>
 
 
 
-<p>The $229 billion FY 2024 New York State Budget reflects Governor Hochul's bold agenda to make New York more affordable, more livable, and safer by making smart, responsible investments in mental health care, public safety, housing, education, climate initiatives, and more.
 
-Governor Hochul's FY 2024 Budget reflects New York's steady finances, even as global economic trends send mixed signals. The Budget is balanced, and deposits to reserves that had been planned for FY 2024 and FY 2025 will be completed by the end of the current year — two years ahead of schedule — for a total of $19.5 billion secured for a rainy day. In keeping with the Governor's promise, the FY 2024 Budget does not include any new increases in State income tax.</p>
 
-{{
-    button({
-        buttons:[
-            {
-                title:"New York State Budget 2024",
-                link:"https://www.governor.ny.gov/programs/fy-2024-new-york-state-budget"
-            },
-            {
-                title:"2023 State of the State Book",
-                link:"https://www.governor.ny.gov/sites/default/files/2023-01/2023SOTSBook.pdf"
-            }
-        ]
-    })
-}}
+
+
 
 {{
     card({
@@ -112,5 +95,22 @@ Governor Hochul's FY 2024 Budget reflects New York's steady finances, even as gl
         ]
         
 
+    })
+}}
+
+
+
+{{
+    button({
+        buttons:[
+            {
+                title:"New York State Budget 2024",
+                link:"https://www.governor.ny.gov/programs/fy-2024-new-york-state-budget"
+            },
+            {
+                title:"2023 State of the State Book",
+                link:"https://www.governor.ny.gov/sites/default/files/2023-01/2023SOTSBook.pdf"
+            }
+        ]
     })
 }}

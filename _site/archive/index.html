@@ -9,7 +9,549 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
-<link href="/css/nysds-esri.css" rel="stylesheet"> 
+<style>
+/* puuuush button - NYSDS JHK */
+.button-container {
+    text-align: center;
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+}
+.nysds-button {
+    background: #154973;
+    padding:15px;
+    margin: 0 25px;
+    border-radius: 15px;
+    color: #fff;
+    min-width: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+}
+
+.nysds-button:hover {
+    background:#000;
+    color:#fff;
+    text-decoration: underline;
+}
+
+.nysds-button:focus {
+    background:#000;
+    color:#fff;
+    text-decoration: underline;
+}
+/* cards - NYSDS JHK */
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    
+}
+
+.cards-heading {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+    width: 100%;
+    font-family: 'Figtree', sans-serif;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.nysds-card {
+    width: 320px;
+    margin: 1.5rem 1rem;
+    background: #ededed;
+    border: 1px solid #d0d0ce;
+    border-radius: 15px;
+}
+
+.card-image {
+    border-radius: 15px;
+    object-fit: cover;
+    height: 220px;
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin: 0 25px 0 0;
+    font-weight: bold;
+    font-family: 'Figtree', sans-serif;
+}
+
+.card-link {
+    color: #004DD1;
+    text-decoration: none;
+    font-family: 'Figtree', sans-serif;
+}
+
+.card-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.card-link:focus {
+    color: #000;
+    text-decoration: underline;
+}
+
+.card-description {
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.cards-intro {
+    font-size: 17px;
+    margin: 15px 0px;
+    text-align: center;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+/* media queries */
+@media (min-width: 992px) {
+    .cards-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-content {
+        padding: 25px;
+    }
+    
+}
+/* filtercards - NYSDS JHK */
+.filtercards {
+    width: 100%;
+}
+.filtercard-heading {
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 25px 0px 0px;
+}
+.filtercard-list {
+    list-style-type: none;
+    padding: 20px;
+}
+.filtercard-list-item {
+    background: #ededed;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 15px 5px;
+    border: 1px solid #d0d0ce;
+    border-radius: 15px;
+}
+.filtercard-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.filtercard-category {
+    font-size: 14px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+.filtercard-agency {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #457AA5;
+    color: #fff;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+.filtercard-divider {
+    width: 30px;
+    border-bottom: 1px solid #d0d0ce;
+    margin:10px 0 15px;
+}
+.filtercard-link {
+    color: #004DD1;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 1.15em;
+    text-decoration: none;
+}
+.filtercard-link:hover {
+    color:#000;
+    text-decoration: underline;
+}
+.filtercard-link:focus {
+    color:#000;
+    text-decoration: underline;
+}
+.filtercard-description {
+    margin: 15px 0px 0px;
+}
+
+.filtercard-date {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+/* media queries */
+@media (min-width: 992px) {
+    /* filtercard */
+    .filtercards {
+        margin: 0 auto;
+    }
+
+    .filtercard-top {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .filtercard-category {
+        padding-bottom: 0;
+    }
+}
+
+
+.global-nav {
+    background: #154973 !important;
+    display: flex;
+    min-height: 80px;
+    flex-direction: column;
+}
+
+.global-nav-menu {
+    float: left !important;
+    margin-left: 25px;
+}
+
+.global-nav-menu:hover {
+    background: none !important;
+}
+
+.global-nav-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.global-nav-title a {
+    color: #fff;
+}
+
+.global-nav-links {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.global-nav-links a {
+    color:#fff;
+    font-weight: bold;
+    padding: 0 40px;
+    text-transform: uppercase;
+}
+
+.global-nav-links a:hover {
+    text-decoration: underline;
+}
+
+.global-nav-links a:focus {
+    text-decoration: underline;
+}
+
+.global-nav-link-container {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu {
+    background:#154973;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.dropdown-menu li {
+    padding: 10px 0px
+}
+
+.dropdown-menu li a {
+    color: #fff;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dropdown-menu li a:hover {
+    color: #face00;
+    background: transparent;
+    text-decoration: underline;
+}
+
+.dropdown-menu li a:focus {
+    color: #face00;
+    background: transparent;
+    text-decoration: underline;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.global-nav-inner {
+    display: flex;
+    align-content: center;
+    min-height: 80px;
+}
+
+.global-nav-links {
+    flex-direction: column;
+    width: 100%
+}
+
+.global-nav-links li {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.global-nav-links li a {
+    width: 100%;
+    display: block;
+}
+
+.row-collapse {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 992px) {
+
+    .global-nav {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .global-nav-inner {
+        display: flex;
+        min-width: fit-content;
+        margin-left: 45px;
+        align-content: center;
+    }
+
+    .global-nav-links {
+        flex-direction: row;
+    }
+
+    .global-nav-links li {
+        padding: 20px 0px;
+        border-bottom: none;
+    }
+
+    #global-navigation {
+        width: 100%;
+        display: block;
+    }
+
+    .unav-links li {
+        border-bottom: none;
+        margin-right: 20px;
+    }
+
+    .global-nav-links a {
+        padding: 0 25px;
+    }
+}
+#unav-menu {
+    display: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.caret-large {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 8px solid;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    color: #000;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #154973;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    border-color: #fff;
+    background: none;
+}
+
+.navbar-default {
+    border-bottom: none;
+    background: #fff;
+    border-top: none;
+}
+
+.navbar-collapse {
+    border-top: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+}
+
+.site-logo {
+    margin-left:40px;
+    padding: 0px;
+    z-index: 2000;
+}
+
+.site-logo img {
+    padding-right: 20px;
+    margin-right: 5px;
+    border-right: 1px solid #ccc;
+}
+
+.unav-container {
+    padding: 10px 0px;
+    height: 90px;
+    background: #fff;
+    border-bottom: none;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.unav-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding-left: 30px;
+}
+
+.unav-links li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.25em;
+    border-bottom: 1px solid #ccc;
+    margin-right: 50px;
+}
+
+.unav-links li a {
+    color: #000;
+}
+
+.unav-links li a:hover {
+    color: #0f739d;
+    text-decoration: none;
+}
+
+.unav-links li a:focus {
+    color: #0f739d;
+    text-decoration: none;
+}
+
+.unav-logo-link:focus { 
+    border: 1px solid #154973;
+
+}
+
+.nygov-links {
+    color: #0f739d;
+}
+
+.nygov-gold {
+    color: #FACE00;
+}
+
+@media (min-width: 992px) {
+    .navbar-toggle {
+        display: none;
+    }
+
+    .dropdown-menu {
+        width: initial;
+    }
+
+    .dropdown-menu li a {
+        margin-left: auto;
+        text-align: initial;
+    }
+
+    .row-collapse {
+        display: none !important;
+    }
+
+    .unav-links {
+        flex-direction: row;
+    }
+
+    .unav-links li {
+        border-bottom:none;
+    }
+
+    .site-logo {
+        margin-left:20px;
+    }
+
+    .site-logo img {
+        padding-right: 20px;
+        padding-left:30px;
+    }
+
+    #unav-menu {
+        display: block;
+        background: #fff;
+        margin-left: 40px;
+    }
+
+    .unav-mobile-button {
+        margin-top: 15px;
+    }
+
+    #unav-menu-mobile {
+        margin-left:30px;
+    }
+}
+</style>
+
+
+    <style>
+      .bootstrap-page-container {
+        max-width: 1170px;
+        margin: 0 auto;
+      }
+    </style>
     <title>ESRI Infrastructure Header</title>
   </head>
   <body class="">
@@ -92,6 +634,7 @@
         </div>
     </div>
   </nav> 
+      <div class="bootstrap-page-container">
     
 
 
@@ -358,6 +901,7 @@
     </ul>
 </div>
 </div>
+    </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

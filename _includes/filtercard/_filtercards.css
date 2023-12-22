@@ -64,16 +64,24 @@
 .filtercard-description {
     margin: 15px 0px 0px;
 }
+
+.filtercard-date {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 14px;
+}
 /* media queries */
 @media (min-width: 992px) {
     /* filtercard */
     .filtercards {
         margin: 0 auto;
     }
+
     .filtercard-top {
         flex-direction: row;
         align-items: center;
     }
+
     .filtercard-category {
         padding-bottom: 0;
     }

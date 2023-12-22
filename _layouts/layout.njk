@@ -7,6 +7,12 @@
     <meta name="description" content="{{title}}">
     <meta name="generator" content="11ty/eleventy">    
     {% include '_css-link.njk' %}
+    <style>
+      .bootstrap-page-container {
+        max-width: 1170px;
+        margin: 0 auto;
+      }
+    </style>
     <title>{{ title }}</title>
   </head>
   <body class="">
@@ -19,7 +25,9 @@
       {{ 
         global({})
       }} 
+      <div class="bootstrap-page-container">
     {{ content | safe }}
+    </div>
     </main>
     {% include '_js-link.njk' %}
   </body>
