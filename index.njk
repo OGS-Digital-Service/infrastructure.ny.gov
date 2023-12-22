@@ -2,7 +2,39 @@
 layout: layout.njk
 title: ESRI Infrastructure Header
 ---
-{% from './_includes/_components.njk' import filtercard  %}
+{% from './_includes/_components.njk' import filtercard, card  %}
+
+
+{{
+    card({
+        heading:"Heading",
+        cards:[
+            {
+                title:"First Card",
+                content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
+                link:"https://budget.ny.gov",
+                image:"https://www.governor.ny.gov/sites/default/files/styles/card_vertical/public/2023-07/Wyandanch_Train_Station_1280.jpg?h=b5f6a62e&itok=QAM5iv6D",
+                imagealt:"Office workers in a conference room having a collaborative working session"
+            },
+            {
+                title:"Second Card",
+                content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
+                link:"https://budget.ny.gov",
+                image:"https://www.governor.ny.gov/sites/default/files/styles/card_vertical/public/2023-07/Wyandanch_Train_Station_1280.jpg?h=b5f6a62e&itok=QAM5iv6D",
+                imagealt:"Office workers in a conference room having a collaborative working session"
+            },
+            {
+                title:"Third Card",
+                content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
+                link:"https://budget.ny.gov",
+                image:"https://www.governor.ny.gov/sites/default/files/styles/card_vertical/public/2023-07/Wyandanch_Train_Station_1280.jpg?h=b5f6a62e&itok=QAM5iv6D",
+                imagealt:"Office workers in a conference room having a collaborative working session"
+            }
+        ]
+    })
+}}
+
+
 
 {{
     filtercard({
