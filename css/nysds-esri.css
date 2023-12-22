@@ -436,7 +436,6 @@
     }
 }
 
-
 /* cards - NYSDS JHK */
 
 .cards-container {
@@ -502,6 +501,12 @@
 
 .card-description {
     font-size: 16px;
+}
+
+.cards-intro {
+    font-size: 17px;
+    margin: 15px 0px;
+    text-align: center;
 }
 
 
