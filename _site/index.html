@@ -249,7 +249,7 @@
     font-weight: bold;
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin:0 20px 0 0;
 }
 
 .global-nav-title a {
@@ -380,6 +380,22 @@
     .global-nav-links a {
         padding: 0 25px;
     }
+}
+
+@media (max-width: 400px) {
+    .global-nav {
+        min-height: 10px;
+    }
+
+    .global-nav-inner {
+        min-height: 10px;
+    }
+
+    .global-nav-links li {
+        padding: 2px 0px;
+        border-bottom: none;
+    }
+
 }
 .unav-trusted-banner {
  display:flex;
@@ -597,7 +613,7 @@
         <img src="https://static-assets.ny.gov/sites/all/themes/ny_gov/images/nygov-logo.png" alt="State of New York Logo" class="unav-trusted-logo">
         <a href="https://ny.gov" class=""> An Official Website of the State of New York </a>
 </div>
-<nav class="navbar navbar-default navbar-static-top container-fluid unav-hide">
+<nav class="navbar navbar-default navbar-static-top container-fluid unav-hide" aria-label="State of new youk universal Navigation">
     <div class="row unav-container" >
           <div class="site-logo col-sm-1 col-xs-5">
               <a href="https://www.ny.gov" class="unav-logo-link">
@@ -642,7 +658,7 @@
       </div>
   </nav> 
        <!-- global nav area -->
-  <nav class="navbar navbar-inverse global-nav" role="navigation">
+  <nav class="navbar navbar-inverse global-nav" role="navigation" aria-label="Hub Navigation">
     <div class="global-nav-inner">
       <button class="navbar-toggle collapsed global-nav-menu" data-toggle="collapse" data-target="#global-navigation">
         <span class="sr-only">Toggle infrastructure hub navigation</span>
@@ -650,9 +666,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <div class="global-nav-title">
+      <h1 class="global-nav-title">
           <a href="https://ny-infrastructure-hub-sharegisny.hub.arcgis.com/"> <span class="nygov-gold">Infrastructure </span> Hub</a>
-      </div>
+      </h1>
     </div>
     <div class=" collapse " id="global-navigation">
         <div class="navbar global-nav-link-container">

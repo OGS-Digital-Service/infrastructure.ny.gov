@@ -23,7 +23,7 @@
     font-weight: bold;
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin:0 20px 0 0;
 }
 
 .global-nav-title a {
@@ -154,4 +154,20 @@
     .global-nav-links a {
         padding: 0 25px;
     }
+}
+
+@media (max-width: 400px) {
+    .global-nav {
+        min-height: 10px;
+    }
+
+    .global-nav-inner {
+        min-height: 10px;
+    }
+
+    .global-nav-links li {
+        padding: 2px 0px;
+        border-bottom: none;
+    }
+
 }
