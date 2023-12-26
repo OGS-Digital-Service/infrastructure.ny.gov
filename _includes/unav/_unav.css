@@ -1,9 +1,36 @@
+.unav-trusted-banner {
+ display:flex;
+ margin-left:30px;
+ align-items: center;
+}
+
+.unav-trusted-banner a {
+    font-size: 11px;
+    color: #154973;
+    margin-left: 10px;
+}
+
+.unav-trusted-banner a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.unav-trusted-banner a:focus {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.unav-trusted-logo {
+    height: 20px;
+    margin: 5px
+}
+
 #unav-menu {
     display: none;
 }
 
-.hidden {
-    display: none !important;
+.unav-hide {
+    display: none;
 }
 
 .caret-large {
@@ -158,5 +185,11 @@
 
     #unav-menu-mobile {
         margin-left:30px;
+    }
+    .unav-hide {
+        display: block;
+    }
+    .unav-trusted-banner {
+        display: none;
     }
 }

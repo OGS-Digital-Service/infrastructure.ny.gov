@@ -381,12 +381,39 @@
         padding: 0 25px;
     }
 }
+.unav-trusted-banner {
+ display:flex;
+ margin-left:30px;
+ align-items: center;
+}
+
+.unav-trusted-banner a {
+    font-size: 11px;
+    color: #154973;
+    margin-left: 10px;
+}
+
+.unav-trusted-banner a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.unav-trusted-banner a:focus {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.unav-trusted-logo {
+    height: 20px;
+    margin: 5px
+}
+
 #unav-menu {
     display: none;
 }
 
-.hidden {
-    display: none !important;
+.unav-hide {
+    display: none;
 }
 
 .caret-large {
@@ -542,6 +569,12 @@
     #unav-menu-mobile {
         margin-left:30px;
     }
+    .unav-hide {
+        display: block;
+    }
+    .unav-trusted-banner {
+        display: none;
+    }
 }
 </style>
 
@@ -559,8 +592,12 @@
     <main class="" id="main-site-content-for-skiplink">
       
       <!-- universal nav area -->
-<nav class="navbar navbar-default navbar-static-top container-fluid">
-    <div class="row unav-container">
+<div class="row unav-trusted-banner">
+        <img src="https://static-assets.ny.gov/sites/all/themes/ny_gov/images/nygov-logo.png" alt="State of New York Logo" class="unav-trusted-logo">
+        <a href="https://ny.gov" class=""> An Official Website of the State of New York </a>
+    </div>
+<nav class="navbar navbar-default navbar-static-top container-fluid unav-hide">
+    <div class="row unav-container" >
           <div class="site-logo col-sm-1 col-xs-5">
               <a href="https://www.ny.gov" class="unav-logo-link">
               <span class="sr-only"> State of New York Website </span>
@@ -629,7 +666,7 @@
             <li><a href="/pages/infrastructure-investments">Projects Map</a></li>
             <li><a href="/pages/funding-opportunities">Funding Opportunities</a></li>
             <li><a href="/pages/resources">Resources</a></li>
-            <li><a href="/pages/news" target="_blank">Infrastructure News</a></li>
+            <li><a href="/pages/news" >Infrastructure News</a></li>
           </ul>
         </div>
     </div>
