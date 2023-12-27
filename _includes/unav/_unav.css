@@ -118,12 +118,12 @@
 
 .unav-links li a:hover {
     color: #0f739d;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .unav-links li a:focus {
     color: #0f739d;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .unav-logo-link:focus { 
