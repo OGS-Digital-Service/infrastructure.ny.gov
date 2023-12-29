@@ -14,21 +14,24 @@
 .button-container {
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     margin: 10px 0;
     justify-content: center;
 }
 .nysds-button {
     background: #154973;
     padding:15px;
-    margin: 0 25px;
+    margin: 10px 25px;
     border-radius: 15px;
     color: #fff;
-    min-width: 150px;
+    min-width: 250px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
     display: block;
     text-decoration: none;
+    appearance: none;
+    border: none;
 }
 
 .nysds-button:hover {
@@ -42,6 +45,7 @@
     color:#fff;
     text-decoration: underline;
 }
+
 /* cards - NYSDS JHK */
 
 .cards-container {
@@ -692,15 +696,138 @@
     
 
 
-<h3 class="filtercard-heading">Archived Infrastructure News</h3>
-
-<div class="filtercard-archive">
-<button class="filtercard-archive-button center-block" data-toggle="collapse" data-target="#dec23">December 2023</button>
-</div>
-<div class="collapse" id="dec23">
 <div class="filtercards">
-    <h3 class="filtercard-heading"> Announcements</h3>
+    <h3 class="filtercard-heading"> Federal Guidance Updates</h3>
     <ul class="filtercard-list" aria-live="polite">
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                        
+                            Inflation Reduction Act (IRA)
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Internal Revenue Service (IRS)</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.whitehouse.gov/cleanenergy/clean-energy-updates/2023/12/22/treasury-sets-out-proposed-rules-for-transformative-clean-hydrogen-incentives/" class="filtercard-link">Treasury Sets Out Proposed Rules for Transformative Clean Hydrogen Incentives</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 22, 2023</span>
+                    
+                
+                    <p class="filtercard-description">On December 22nd, the Treasury Department and IRS published a Notice of Public Rulemaking (NPRM) setting forth guidance for claiming the §45V Clean Hydrogen Production Tax Credit established under last year’s Inflation Reduction Act.</p>
+                
+            </li>
+        
+    </ul>
+</div>
+
+
+
+
+<h3 class="filtercard-heading">Older Infrastructure News</h3>
+<div class="button-container">
+    
+        
+            <button 
+                class="nysds-button" 
+                
+                 data-toggle="collapse" 
+                 data-target="#dec23a" 
+            >
+                December 2023 Announcements
+            </button>
+        
+
+        
+    
+        
+            <button 
+                class="nysds-button" 
+                
+                 data-toggle="collapse" 
+                 data-target="#dec23b" 
+            >
+                December 2023 Federal Guidance Updates
+            </button>
+        
+
+        
+    
+</div>
+
+
+<div class="collapse" id="dec23a">
+<div class="filtercards">
+    <h3 class="filtercard-heading"> December 2023 Announcements</h3>
+    <ul class="filtercard-list" aria-live="polite">
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                        
+                            Inflation Reduction Act (IRA)
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Housing and Urban Development (HUD)</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.hud.gov/press/press_releases_media_advisories/HUD_No_23_284" class="filtercard-link">Biden-Harris Administration Announces $174 Million to Support Energy Efficiency and Climate Resilience for Thousands of Low-Income Households as Part of Investing in America Agenda</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 21, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                        
+                            Inflation Reduction Act (IRA)
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Governor</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.governor.ny.gov/news/governor-hochul-announces-8-million-awarded-new-york-state-under-inflation-reduction-act" class="filtercard-link">Governor Hochul Announces $8 Million Awarded to New York State Under Inflation Reduction Act to Reduce Methane Emissions From Oil and Gas Wells</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 21, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                        
+                            Inflation Reduction Act (IRA)
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Environmental Protection Agency (EPA)</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.epa.gov/newsreleases/biden-harris-administration-selects-fordham-university-receive-50-million-fund" class="filtercard-link">Biden-Harris Administration Selects Fordham University to Receive $50 Million to Fund Environmental Justice Projects Across EPA Region 2 as Part of Investing in America Agenda</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 20, 2023</span>
+                    
+                
+            </li>
         
             <li class="filtercard-list-item">
                     <div class="filtercard-top">
@@ -716,9 +843,198 @@
                     
                     </div>
                     <span class="filtercard-divider" aria-hidden="true"></span>
-                    <a href="https://www.transportation.gov/briefing-room/biden-administration-announces-more-300-million-available-make-transit-stations" class="filtercard-link">Biden Administration Announces More Than $300 Million Available to Make Transit Stations Accessible for All</a>
+                    <a href="https://www.transportation.gov/briefing-room/biden-harris-administration-invests-66-million-bipartisan-infrastructure-law-funding" class="filtercard-link">Biden-Harris Administration Invests $66 Million in Bipartisan Infrastructure Law Funding for Airport Improvements Across the Country</a>
                     
-                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 1, 2023</span>
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 19, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                            Bipartisan Infrastructure Law (BIL)
+                        
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Governor</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.governor.ny.gov/news/governor-hochul-announces-thruway-authority-award-develop-comprehensive-safety-action-plan" class="filtercard-link">Governor Hochul Announces Thruway Authority Award to Develop Comprehensive Safety Action Plan to Improve Roadway Safety</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 18, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                            Bipartisan Infrastructure Law (BIL)
+                        
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Governor</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.governor.ny.gov/news/governor-hochul-announces-new-yorks-first-national-electric-vehicle-infrastructure-funded-fast" class="filtercard-link">Governor Hochul Announces New York’s First National Electric Vehicle Infrastructure Funded Fast Charging Station Now Operating in the Hudson Valley</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 15, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                            Bipartisan Infrastructure Law (BIL)
+                        
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Department of Transportation (DOT)</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.transportation.gov/briefing-room/biden-harris-administration-celebrates-opening-nations-first-nevi-funded-ev-charging" class="filtercard-link">Biden-Harris Administration Celebrates Opening of Nation’s First NEVI-Funded EV Charging Stations in Ohio and New York</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 15, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                        
+                            Inflation Reduction Act (IRA)
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Environmental Protection Agency (EPA)</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.epa.gov/newsreleases/biden-harris-administration-announces-350-million-14-states-reduce-methane-emissions" class="filtercard-link">Biden-Harris Administration Announces $350 Million to 14 States to Reduce Methane Emissions from Oil and Gas Sector as Part of Investing in America Agenda</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 15, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                            Bipartisan Infrastructure Law (BIL)
+                        
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>White House</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2023/12/14/fact-sheet-biden-harris-administration-takes-action-to-accelerate-americas-clean-transportation-future/" class="filtercard-link">Biden-⁠Harris Administration Takes Action to Accelerate America’s Clean Transportation Future</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 14, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                            Bipartisan Infrastructure Law (BIL)
+                        
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Department of Transportation (DOT)</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.transportation.gov/briefing-room/biden-harris-administration-investing-hundreds-american-communities-improve-safety" class="filtercard-link">Biden-Harris Administration Investing in Hundreds of American Communities to Improve Safety and Prevent Roadway Deaths</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 13, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                        
+                            Inflation Reduction Act (IRA)
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Governor</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.governor.ny.gov/news/governor-hochul-announces-new-45-million-apprenticeship-and-pre-apprenticeship-clean-energy" class="filtercard-link">Governor Hochul Announces New $45 Million Apprenticeship and Pre-Apprenticeship Clean Energy Training Initiative</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 12, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                            Bipartisan Infrastructure Law (BIL)
+                        
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>White House</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2023/12/08/fact-sheet-president-biden-announces-billions-to-deliver-world-class-high-speed-rail-and-launch-new-passenger-rail-corridors-across-the-country/" class="filtercard-link">President Biden Announces Billions to Deliver World-Class High-Speed Rail and Launch New Passenger Rail Corridors Across the Country</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 08, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                            Bipartisan Infrastructure Law (BIL)
+                        
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Environmental Protection Agency</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.epa.gov/newsreleases/biden-harris-administration-announces-major-grant-recruit-and-train-harlem-new-york" class="filtercard-link">Biden-Harris Administration Announces Major Grant to Recruit and Train Harlem, New York Workers for Community Revitalization and Cleanup Projects as Part of Investing in America Agenda</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 08, 2023</span>
                     
                 
             </li>
@@ -739,7 +1055,7 @@
                     <span class="filtercard-divider" aria-hidden="true"></span>
                     <a href="https://www.governor.ny.gov/news/governor-hochul-announces-164-million-local-water-infrastructure-projects" class="filtercard-link">Governor Hochul Announces $164 Million for Local Water Infrastructure Projects</a>
                     
-                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 7, 2023</span>
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 07, 2023</span>
                     
                 
             </li>
@@ -760,16 +1076,39 @@
                     <span class="filtercard-divider" aria-hidden="true"></span>
                     <a href="https://www.governor.ny.gov/news/governor-hochul-announces-100-million-federal-funding-now-available-high-speed-broadband" class="filtercard-link">Governor Hochul Announces $100 Million in Federal Funding Now Available for High-speed Broadband Infrastructure Through Affordable Housing Connectivity Program</a>
                     
-                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 6, 2023</span>
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 06, 2023</span>
+                    
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                            Bipartisan Infrastructure Law (BIL)
+                        
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Department of Transportation (DOT)</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.transportation.gov/briefing-room/biden-administration-announces-more-300-million-available-make-transit-stations" class="filtercard-link">Biden Administration Announces More Than $300 Million Available to Make Transit Stations Accessible for All</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 01, 2023</span>
                     
                 
             </li>
         
     </ul>
 </div>
+</div>
 
+<div class="collapse" id="dec23b">
 <div class="filtercards">
-    <h3 class="filtercard-heading"> Federal Guidance Updates</h3>
+    <h3 class="filtercard-heading"> December 2023 Federal Guidance Updates</h3>
     <ul class="filtercard-list" aria-live="polite">
         
             <li class="filtercard-list-item">
@@ -782,16 +1121,62 @@
                         
                         </span>
                     
-                        <span class="filtercard-agency"><span class="sr-only">Agency </span>department of energy (doe)</span>
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Department of Transportation (DOT)</span>
                     
                     </div>
                     <span class="filtercard-divider" aria-hidden="true"></span>
-                    <a href="https://www.energy.gov/articles/department-energy-releases-proposed-interpretive-guidance-foreign-entity-concern-public" class="filtercard-link">Department of Energy Releases Proposed Interpretive Guidance on Foreign Entity of Concern for Public Comment</a>
+                    <a href="https://www.transportation.gov/briefing-room/biden-harris-administration-opens-applications-over-9-billion-funding-modernize" class="filtercard-link">Biden-Harris Administration Opens Applications for Over $9 Billion in Funding to Modernize Nation’s Bridges</a>
                     
-                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 1, 2023</span>
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 20, 2023</span>
                     
                 
-                    <p class="filtercard-description">On December 1st, the U.S. Department of Energy released a notice of its proposed guidance and a request for public comment on its proposed interpretation of the statutory definition of “foreign entity of concern” (FEOC) in the Bipartisan Infrastructure Law, which is designed to limit the participation of FEOCs within government-supported domestic battery supply chains and bolster the growth of domestic and friend-shored battery materials processing and manufacturing.</p>
+                    <p class="filtercard-description">On December 20th, the U.S. Department of Transportation’s Federal Highway Administration announced today that it has opened applications for $9.7 billion in multi-year (FY2023 through FY2026) funding to improve the nation’s bridges.</p>
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                            Bipartisan Infrastructure Law (BIL)
+                        
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Department of Energy (DOE)</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.energy.gov/articles/biden-harris-administration-announces-40-million-train-clean-energy-workforce" class="filtercard-link">Biden-Harris Administration Announces $40 Million to Train the Clean Energy Workforce</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 20, 2023</span>
+                    
+                
+                    <p class="filtercard-description">On December 20th, the Department of Energy announced that it would begin accepting applications for the Energy Auditor Training program (EAT), which will provide up to $40 million in grants for states to train individuals to conduct energy audits or surveys of commercial and residential buildings</p>
+                
+            </li>
+        
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        
+                            Bipartisan Infrastructure Law (BIL)
+                        
+                        
+                        </span>
+                    
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Department of Homeland Security (DHS)</span>
+                    
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="https://www.fema.gov/press-release/20231219/biden-harris-administration-announces-150-million-help-underserved" class="filtercard-link">Biden-Harris Administration Announces $150 Million to Help Underserved Communities Receive Low-Interest Loans for Resilience Projects</a>
+                    
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 19, 2023</span>
+                    
+                
+                    <p class="filtercard-description">On December 19th, FEMA announced the opening of the second funding opportunity for the Safeguarding Tomorrow Revolving Loan Fund (RLF) grant program to make communities safer from natural hazards.</p>
                 
             </li>
         
@@ -809,102 +1194,14 @@
                     
                     </div>
                     <span class="filtercard-divider" aria-hidden="true"></span>
-                    <a href="https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-those-who-manufacture-new-clean-vehicles" class="filtercard-link">Treasury, IRS provide guidance for those who manufacture new clean vehicles</a>
+                    <a href="https://www.whitehouse.gov/cleanenergy/clean-energy-updates/2023/12/14/treasury-issues-proposed-guidance-to-drive-advanced-clean-energy-manufacturing-and-secure-resilient-energy-supply-chains/" class="filtercard-link">Treasury Issues Proposed Guidance to Drive Advanced Clean Energy Manufacturing and Secure, Resilient Energy Supply Chains</a>
                     
-                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 1, 2023</span>
+                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 14, 2023</span>
                     
                 
-                    <p class="filtercard-description">On December 1st, Department of the Treasury and the Internal Revenue Service issued two items of guidance on the excluded entity restriction of the section 30D clean vehicle credit, as amended by the Inflation Reduction Act.</p>
-                
-            </li>
-        
-    </ul>
-</div>
-</div>
-
-
-
-
-
-
-
-<div class="filtercard-archive">
-<button class="filtercard-archive-button center-block" data-toggle="collapse" data-target="#dec22">November 2023</button>
-</div>
-<div class="collapse" id="dec22">
-<div class="filtercards">
-    <h3 class="filtercard-heading"> Announcements</h3>
-    <ul class="filtercard-list" aria-live="polite">
-        
-            <li class="filtercard-list-item">
-                    <div class="filtercard-top">
-                        <span class="filtercard-category">
-                            <span class="sr-only">Category of </span>
-                        
-                            Bipartisan Infrastructure Law (BIL)
-                        
-                        
-                        </span>
-                    
-                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Department of Transportation (DOT)</span>
-                    
-                    </div>
-                    <span class="filtercard-divider" aria-hidden="true"></span>
-                    <a href="https://www.transportation.gov/briefing-room/biden-administration-announces-more-300-million-available-make-transit-stations" class="filtercard-link">Biden Administration Announces More Than $300 Million Available to Make Transit Stations Accessible for All</a>
-                    
-                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 1, 2023</span>
-                    
+                    <p class="filtercard-description">On December 14th, the Department of the Treasury issued a Notice of Proposed Rulemaking (NPRM) proposing rules for claiming the §45X Advanced Manufacturing Production Tax Credit (PTC), an incentive created by the Inflation Reduction Act (IRA).</p>
                 
             </li>
-        
-            <li class="filtercard-list-item">
-                    <div class="filtercard-top">
-                        <span class="filtercard-category">
-                            <span class="sr-only">Category of </span>
-                        
-                            Bipartisan Infrastructure Law (BIL)
-                        
-                        
-                        </span>
-                    
-                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Governor</span>
-                    
-                    </div>
-                    <span class="filtercard-divider" aria-hidden="true"></span>
-                    <a href="https://www.governor.ny.gov/news/governor-hochul-announces-164-million-local-water-infrastructure-projects" class="filtercard-link">Governor Hochul Announces $164 Million for Local Water Infrastructure Projects</a>
-                    
-                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 7, 2023</span>
-                    
-                
-            </li>
-        
-            <li class="filtercard-list-item">
-                    <div class="filtercard-top">
-                        <span class="filtercard-category">
-                            <span class="sr-only">Category of </span>
-                        
-                            Bipartisan Infrastructure Law (BIL)
-                        
-                        
-                        </span>
-                    
-                        <span class="filtercard-agency"><span class="sr-only">Agency </span>Governor</span>
-                    
-                    </div>
-                    <span class="filtercard-divider" aria-hidden="true"></span>
-                    <a href="https://www.governor.ny.gov/news/governor-hochul-announces-100-million-federal-funding-now-available-high-speed-broadband" class="filtercard-link">Governor Hochul Announces $100 Million in Federal Funding Now Available for High-speed Broadband Infrastructure Through Affordable Housing Connectivity Program</a>
-                    
-                        <span class="filtercard-date"> <span class="sr-only">published </span>Dec 6, 2023</span>
-                    
-                
-            </li>
-        
-    </ul>
-</div>
-
-<div class="filtercards">
-    <h3 class="filtercard-heading"> Federal Guidance Updates</h3>
-    <ul class="filtercard-list" aria-live="polite">
         
             <li class="filtercard-list-item">
                     <div class="filtercard-top">
