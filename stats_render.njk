@@ -1,0 +1,37 @@
+---
+layout: render-layout.njk
+title: ESRI Infrastructure Hub
+---
+{% from './_includes/_components.njk' import stats %}
+
+<style>
+{% include './_includes/stats/_stats.css'  %}
+</style>
+
+{{
+    stats({
+        heading:"Historic Investments in Infrastructure",
+        intro:"New York State is making historic investments in infrastructure, from transportation to clean energy projects and beyond. This dashboard reflects a summary of funding that has been dedicated to New York through the Bipartisan Infrastructure Law and Inflation Reduction Act. ",
+        cards:[
+            {
+                icon:'<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 21 21" aria-hidden="true" height="97.93928833007811" width="97.93928833007811"><path d="M16 12.998v-2.55a5.48 5.48 0 0 0-.072-.887c-.947-5.802-.84-7.563-2.928-7.563H8c-2.09 0-1.983 1.773-2.928 7.563-.048.291-.072.59-.072.886v2.551a2 2 0 0 0 2 2l-2 3h2l1-3h5l1 3h2l-2-3a2 2 0 0 0 2-2zm-5.5.3c-.44 0-.8-.36-.8-.8s.36-.8.8-.8c.44 0 .8.36.8.8s-.36.8-.8.8zm0-3.3l-3.703-1 .8-4h5.805l.801 4-3.703 1z"></path></svg>',
+                stat:" $17 Billion ",
+                description:"Transportation",
+                color:"blue"
+            },
+            {
+                icon:'<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 21 21" aria-hidden="true" height="97.93928833007811" width="97.93928833007811"><path d="M19 4.214v1.49A5.8 5.8 0 0 1 16.32 7a3.825 3.825 0 0 1-2.82-1.292A3.526 3.526 0 0 1 10.693 7h-.386A3.526 3.526 0 0 1 7.5 5.708 3.825 3.825 0 0 1 4.68 7 5.618 5.618 0 0 1 2 5.705v-1.49A4.713 4.713 0 0 0 4.655 5.55 3.93 3.93 0 0 0 7.5 4a4.22 4.22 0 0 0 2.879 1.449h.242A4.22 4.22 0 0 0 13.5 4a3.93 3.93 0 0 0 2.845 1.55A4.713 4.713 0 0 0 19 4.213zm-2.655 6.335A3.93 3.93 0 0 1 13.5 9a4.22 4.22 0 0 1-2.879 1.449h-.242A4.22 4.22 0 0 1 7.5 9a3.93 3.93 0 0 1-2.845 1.55A4.713 4.713 0 0 1 2 9.213v1.49A5.618 5.618 0 0 0 4.68 12a3.825 3.825 0 0 0 2.82-1.292A3.526 3.526 0 0 0 10.307 12h.386a3.526 3.526 0 0 0 2.807-1.292A3.825 3.825 0 0 0 16.32 12 5.8 5.8 0 0 0 19 10.705v-1.49a4.713 4.713 0 0 1-2.655 1.335zm0 5A3.93 3.93 0 0 1 13.5 14a4.22 4.22 0 0 1-2.879 1.449h-.242A4.22 4.22 0 0 1 7.5 14a3.93 3.93 0 0 1-2.845 1.55A4.713 4.713 0 0 1 2 14.213v1.49A5.618 5.618 0 0 0 4.68 17a3.825 3.825 0 0 0 2.82-1.292A3.526 3.526 0 0 0 10.307 17h.386a3.526 3.526 0 0 0 2.807-1.292A3.825 3.825 0 0 0 16.32 17 5.8 5.8 0 0 0 19 15.705v-1.49a4.713 4.713 0 0 1-2.655 1.335z"></path></svg>',
+                stat:" $1 Billion ",
+                description:"Water",
+                color:"blue"
+            },
+            {
+                icon:'<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 21 21" aria-hidden="true" height="97.79949340820312" width="97.79949340820312"> <path d="M17,6h-6v13H9V6H3V5h2V3h1v2h1V3h1v2h1V2h2v3h1V3h1v2h1V3h1v2h2V6z M8,7H5v3h3V7z M15,7h-3v3h3V7z"></path> </svg>',
+                stat:" $729 Million ",
+                description:"Clean Energy",
+                color:"blue"
+            }
+        ]
+
+    })
+}}
