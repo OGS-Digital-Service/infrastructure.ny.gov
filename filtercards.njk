@@ -1,9 +1,41 @@
 ---
 layout: layout.njk
-title: ESRI Infrastructure Header
+title: News and Announcements
 ---
-{% from './_includes/_components.njk' import filtercard, button  %}
+{% from './_includes/_components.njk' import filtercard , button  %}
 
+
+{{
+    filtercard({
+        heading:"Announcements",
+        cards:[
+            {
+                category:"BIL",
+                agency:"Governor",
+                title:"Governor Hochul Highlights Significant Progress in Revitalizing New York State’s Roads and Bridges in 2023",
+                link:"https://www.governor.ny.gov/news/governor-hochul-highlights-significant-progress-revitalizing-new-york-states-roads-and-bridges",
+                description:"",
+                date:"Jan 01, 2023" 
+            },
+            {
+                category:"IRA",
+                agency:"Housing and Urban Development (HUD)",
+                title:"Biden-Harris Administration Announces $174 Million to Support Energy Efficiency and Climate Resilience for Thousands of Low-Income Households as Part of Investing in America Agenda",
+                link:"https://www.hud.gov/press/press_releases_media_advisories/HUD_No_23_284",
+                description:"",
+                date:"Dec 21, 2023" 
+            },
+             {
+                category:"IRA",
+                agency:"Governor",
+                title:"Governor Hochul Announces $8 Million Awarded to New York State Under Inflation Reduction Act to Reduce Methane Emissions From Oil and Gas Wells",
+                link:"https://www.governor.ny.gov/news/governor-hochul-announces-8-million-awarded-new-york-state-under-inflation-reduction-act",
+                description:"",
+                date:"Dec 21, 2023" 
+            }
+        ]
+    })
+}}
 
 {{
     filtercard({
@@ -31,14 +63,14 @@ title: ESRI Infrastructure Header
         buttons:[
             {
                 type: "button",
-                title: "December 2023 Announcements",
+                title: "Announcements",
                 toggle: "true",
                 id:"dec23a"
                  
             },
             {
                 type: "button",
-                title: "December 2023 Federal Guidance Updates",
+                title: "Federal Guidance Updates",
                 toggle: "true",
                 id:"dec23b"
                  
@@ -53,22 +85,6 @@ title: ESRI Infrastructure Header
     filtercard({
         heading:"December 2023 Announcements",
         cards:[
-             {
-                category:"IRA",
-                agency:"Housing and Urban Development (HUD)",
-                title:"Biden-Harris Administration Announces $174 Million to Support Energy Efficiency and Climate Resilience for Thousands of Low-Income Households as Part of Investing in America Agenda",
-                link:"https://www.hud.gov/press/press_releases_media_advisories/HUD_No_23_284",
-                description:"",
-                date:"Dec 21, 2023" 
-            },
-             {
-                category:"IRA",
-                agency:"Governor",
-                title:"Governor Hochul Announces $8 Million Awarded to New York State Under Inflation Reduction Act to Reduce Methane Emissions From Oil and Gas Wells",
-                link:"https://www.governor.ny.gov/news/governor-hochul-announces-8-million-awarded-new-york-state-under-inflation-reduction-act",
-                description:"",
-                date:"Dec 21, 2023" 
-            },
             {
                 category:"IRA",
                 agency:"Environmental Protection Agency (EPA)",
@@ -79,7 +95,7 @@ title: ESRI Infrastructure Header
             },
             {
                 category:"BIL",
-                agency:"Department of Transportation (DOT)",
+                agency:"U.S. Department of Transportation (DOT)",
                 title:"Biden-Harris Administration Invests $66 Million in Bipartisan Infrastructure Law Funding for Airport Improvements Across the Country",
                 link:"https://www.transportation.gov/briefing-room/biden-harris-administration-invests-66-million-bipartisan-infrastructure-law-funding",
                 description:"",
@@ -103,7 +119,7 @@ title: ESRI Infrastructure Header
             },
             {
                 category:"BIL",
-                agency:"Department of Transportation (DOT)",
+                agency:"U.S. Department of Transportation (DOT)",
                 title:"Biden-Harris Administration Celebrates Opening of Nation’s First NEVI-Funded EV Charging Stations in Ohio and New York",
                 link:"https://www.transportation.gov/briefing-room/biden-harris-administration-celebrates-opening-nations-first-nevi-funded-ev-charging",
                 description:"",
@@ -127,7 +143,7 @@ title: ESRI Infrastructure Header
             },
             {
                 category:"BIL",
-                agency:"Department of Transportation (DOT)",
+                agency:"U.S. Department of Transportation (DOT)",
                 title:"Biden-Harris Administration Investing in Hundreds of American Communities to Improve Safety and Prevent Roadway Deaths",
                 link:"https://www.transportation.gov/briefing-room/biden-harris-administration-investing-hundreds-american-communities-improve-safety",
                 description:"",
@@ -176,7 +192,7 @@ title: ESRI Infrastructure Header
                 title:"Biden Administration Announces More Than $300 Million Available to Make Transit Stations Accessible for All",
                 link:"https://www.transportation.gov/briefing-room/biden-administration-announces-more-300-million-available-make-transit-stations",
                 date: "Dec 01, 2023",
-                agency:"Department of Transportation (DOT)"
+                agency:"U.S. Department of Transportation (DOT)"
             }
         ]
     })
@@ -190,7 +206,7 @@ title: ESRI Infrastructure Header
         cards:[
             {
                 category:"BIL",
-                agency:"Department of Transportation (DOT)",
+                agency:"U.S. Department of Transportation (DOT)",
                 title:"Biden-Harris Administration Opens Applications for Over $9 Billion in Funding to Modernize Nation’s Bridges",
                 link:"https://www.transportation.gov/briefing-room/biden-harris-administration-opens-applications-over-9-billion-funding-modernize",
                 description:"On December 20th, the U.S. Department of Transportation’s Federal Highway Administration announced today that it has opened applications for $9.7 billion in multi-year (FY2023 through FY2026) funding to improve the nation’s bridges.",
