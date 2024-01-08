@@ -12,5 +12,5 @@
       "includeWarnings": true,
       "standard": "WCAG2AA"
     },
-    "urls": ["https://verdant-marzipan-ff0f5a.netlify.app"]
+    "urls": ["https://verdant-marzipan-ff0f5a.netlify.app", "https://verdant-marzipan-ff0f5a.netlify.app/filtercards"]
   }
