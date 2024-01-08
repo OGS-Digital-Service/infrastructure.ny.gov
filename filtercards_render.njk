@@ -9,6 +9,37 @@ title: ESRI Infrastructure Header
 {% include './_includes/filtercard/_filtercards.css'  %}
 </style>
 
+{{
+    filtercard({
+        heading:"Announcements",
+        cards:[
+            {
+                category:"BIL",
+                agency:"Governor",
+                title:"Governor Hochul Highlights Significant Progress in Revitalizing New York State’s Roads and Bridges in 2023",
+                link:"https://www.governor.ny.gov/news/governor-hochul-highlights-significant-progress-revitalizing-new-york-states-roads-and-bridges",
+                description:"",
+                date:"Jan 01, 2023" 
+            },
+            {
+                category:"IRA",
+                agency:"Housing and Urban Development (HUD)",
+                title:"Biden-Harris Administration Announces $174 Million to Support Energy Efficiency and Climate Resilience for Thousands of Low-Income Households as Part of Investing in America Agenda",
+                link:"https://www.hud.gov/press/press_releases_media_advisories/HUD_No_23_284",
+                description:"",
+                date:"Dec 21, 2023" 
+            },
+             {
+                category:"IRA",
+                agency:"Governor",
+                title:"Governor Hochul Announces $8 Million Awarded to New York State Under Inflation Reduction Act to Reduce Methane Emissions From Oil and Gas Wells",
+                link:"https://www.governor.ny.gov/news/governor-hochul-announces-8-million-awarded-new-york-state-under-inflation-reduction-act",
+                description:"",
+                date:"Dec 21, 2023" 
+            }
+        ]
+    })
+}}
 
 {{
     filtercard({
@@ -36,14 +67,14 @@ title: ESRI Infrastructure Header
         buttons:[
             {
                 type: "button",
-                title: "December 2023 Announcements",
+                title: "Announcements",
                 toggle: "true",
                 id:"dec23a"
                  
             },
             {
                 type: "button",
-                title: "December 2023 Federal Guidance Updates",
+                title: "Federal Guidance Updates",
                 toggle: "true",
                 id:"dec23b"
                  
@@ -58,22 +89,6 @@ title: ESRI Infrastructure Header
     filtercard({
         heading:"December 2023 Announcements",
         cards:[
-             {
-                category:"IRA",
-                agency:"Housing and Urban Development (HUD)",
-                title:"Biden-Harris Administration Announces $174 Million to Support Energy Efficiency and Climate Resilience for Thousands of Low-Income Households as Part of Investing in America Agenda",
-                link:"https://www.hud.gov/press/press_releases_media_advisories/HUD_No_23_284",
-                description:"",
-                date:"Dec 21, 2023" 
-            },
-             {
-                category:"IRA",
-                agency:"Governor",
-                title:"Governor Hochul Announces $8 Million Awarded to New York State Under Inflation Reduction Act to Reduce Methane Emissions From Oil and Gas Wells",
-                link:"https://www.governor.ny.gov/news/governor-hochul-announces-8-million-awarded-new-york-state-under-inflation-reduction-act",
-                description:"",
-                date:"Dec 21, 2023" 
-            },
             {
                 category:"IRA",
                 agency:"Environmental Protection Agency (EPA)",
