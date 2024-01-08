@@ -59,10 +59,11 @@
 
 
 .stats-the {
-    font-size: 3.5em;
+    font-size: 2.8em;
     font-weight: bold;
     padding: 10px 0 10px 0;
     margin: 0;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .stats-the-blue {
@@ -74,7 +75,7 @@
 }
 
 .stats-description {
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin: 0px;
     text-transform: uppercase;
     line-height: 1.375em;
