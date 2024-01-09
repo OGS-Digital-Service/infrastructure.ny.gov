@@ -18,7 +18,7 @@
   <body class="">
   <a href="#main-site-content-for-skiplink" class="sr-only focus:not-sr-only text-blue-700 underline">Skip to Main Content</a>
     <main class="" id="main-site-content-for-skiplink">
-      {% from '../_includes/_components.njk' import unav, global  %}
+      {% from '../_includes/_components.njk' import unav, global, footer  %}
       {{ 
         unav({})
       }} 
@@ -28,6 +28,9 @@
       <div class="bootstrap-page-container">
     {{ content | safe }}
     </div>
+      {{ 
+        footer({})
+      }} 
     </main>
     {% include '_js-link.njk' %}
   </body>

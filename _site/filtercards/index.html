@@ -704,6 +704,58 @@
         width: 23%;
     }
 }
+.global-footer {
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+.global-logo {
+    display: block;
+    height: 50px;
+}
+
+.global-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.global-list li {
+    margin-top: 25px;
+}
+
+.global-links {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+.global-links:hover {
+    color: #FACE00;
+    text-decoration: underline;
+}
+
+.global-links:focus {
+    color: #FACE00;
+    text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+    .global-footer {
+        flex-direction: row;
+    }
+    .global-list {
+        flex-direction: row;
+    }
+    .global-list li {
+        margin-top: 0;
+    }
+}
 </style>
 
 
@@ -1388,6 +1440,33 @@
 </div>
 </div>
     </div>
+       <!-- global footer area -->
+<nav class="global-footer" aria-label="NYS Global Footer Menu - these are external links">
+  <img class="global-logo" src="https://static-assets.ny.gov/sites/all/themes/ny_gov/images/logo_footer.png" alt="The State of New York Logo" />
+  <ul class="global-list">
+    <li>
+      <a href="https://www.ny.gov/agencies" class="global-links">Agencies</a>
+    </li>
+    <li>
+      <a href="https://www.ny.gov/mobileapps" class="global-links">App Directory</a>
+    </li>
+    <li>
+      <a href="https://www.ny.gov/counties" class="global-links">Counties</a>
+    </li>
+    <li>
+      <a href="https://www.ny.gov/events" class="global-links">Events</a>
+    </li>
+    <li>
+      <a href="https://www.ny.gov/programs" class="global-links">Programs</a>
+    </li>
+    <li>
+      <a href="https://www.ny.gov/services" class="global-links">Services</a>
+    </li>
+    <li>
+      <a href="https://www.governor.ny.gov/content/governor-contact-form" class="global-links">Contact Us</a>
+    </li>
+  </ul>
+</nav> 
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
