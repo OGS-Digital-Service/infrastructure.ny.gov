@@ -1,7 +1,7 @@
 {
-  "name": "esri-infrastructure-hub",
+  "name": "nys-infrastructure-hub",
   "version": "1.0.0",
-  "description": "Compartmentalized components for ESRI",
+  "description": "Compartmentalized components for NYS infrastructure Hub",
   "main": "index.js",
   "scripts": {
     "test": "pa11y-ci",
