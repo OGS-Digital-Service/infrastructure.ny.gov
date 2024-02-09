@@ -2,9 +2,21 @@
 layout: layout.njk
 title: ESRI Infrastructure Hub
 ---
-{% from './_includes/_components.njk' import filtercard, card, button, stats  %}
+{% from './_includes/_components.njk' import filtercard, card, button, stats, highlight  %}
 
-
+{{
+    highlight({
+        heading:"Highlight",
+        title:"Title",
+        description:"",
+        buttons:[
+            {
+                title:"",
+                link:""
+            }
+            ]
+    })
+}}
 
 {{
     stats({

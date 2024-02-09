@@ -1,0 +1,22 @@
+<div class="highlight-container bg-yellow">
+    {% if params.title or params.heading %}
+        <h2 class="highlight-h2">
+            {%if params.title %}
+                <span class="highlight-title"> {{params.title}} </span>
+            {%endif%}
+            {%if params.heading %}
+                <span class="highlight-heading"> {{params.heading}} </span>
+            {%endif%}
+        </h2>
+    {%endif%}
+    {%if params.description %}
+        <p class="">{{params.description}}</p>
+    {%endif%}
+    {% if params.buttons %}
+        <div class="highlight-buttons">
+            {%for button in params.buttons%}
+            <a href="{{button.link}}" class="">{{button.title}}</a>
+            {%endfor%}
+        </div>
+    {% endif %}
+</div>

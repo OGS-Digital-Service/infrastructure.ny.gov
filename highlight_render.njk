@@ -1,0 +1,22 @@
+---
+layout: render-layout.njk
+---
+{% from './_includes/_components.njk' import highlight %}
+
+<style>
+{% include './_includes/highlight/_highlight.css'  %}
+</style>
+
+{{
+    highlight({
+        heading:"Highlight",
+        title:"Title",
+        description:"",
+        buttons:[
+            {
+                title:"",
+                link:""
+            }
+            ]
+    })
+}}
