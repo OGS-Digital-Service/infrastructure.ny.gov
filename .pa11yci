@@ -12,5 +12,5 @@
       "includeWarnings": true,
       "standard": "WCAG2AA"
     },
-    "urls": ["https://verdant-marzipan-ff0f5a.netlify.app", "https://verdant-marzipan-ff0f5a.netlify.app/filtercards"]
+    "urls": ["https://infrastructure.ny.gov/", "https://infrastructure.ny.gov/pages/program-highlights", "https://infrastructure.ny.gov/pages/overview", "https://infrastructure.ny.gov/pages/projects-map", "https://infrastructure.ny.gov/pages/funding-opportunities", "https://infrastructure.ny.gov/pages/resources","https://infrastructure.ny.gov/pages/news"]
   }
