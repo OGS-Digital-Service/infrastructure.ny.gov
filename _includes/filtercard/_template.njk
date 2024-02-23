@@ -1,3 +1,4 @@
+{%if params.archive === false%}
 <div class="filtercards">
     <h3 class="filtercard-heading"> {{params.heading}}</h3>
     <ul class="filtercard-list" aria-live="polite">
@@ -29,3 +30,45 @@
         {% endfor %}
     </ul>
 </div>
+{% endif %}
+
+{%if params.archive === true%}
+<div class="filter-archive">
+    <h3 class="filter-table-heading"> {{params.heading}}</h3>
+    <table class="filter-archive-table">
+        <caption class="sr-only">{{params.heading}}
+            </caption>
+        <thead>
+            <tr class="filter-archive-table-header">
+                <th scope="col" >Category</th>
+                <th  scope="col" class="filter-table-title">Title</th>
+                <th  scope="col" class="filter-table-date">Published Date</th>
+                <th scope="col" >Agency</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for card in params.cards %}
+            <tr class="filter-archive-table-row">
+                <td>
+                    <span>
+                        <span class="sr-only">Category of </span>
+                        {%if card.category === "BIL"%}
+                            Bipartisan Infrastructure Law (BIL)
+                        {%endif%}
+                        {%if card.category === "IRA"%}
+                            Inflation Reduction Act (IRA)
+                        {%endif%}
+                    </span>
+                </td>
+                <td>
+                    <a href="{{card.link}}" class="filter-archive-link">{{card.title}}</a>
+                </td>
+                <td>{{card.date}}</td>
+                <td>{{card.agency}}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endif %}
