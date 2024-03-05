@@ -2,7 +2,26 @@
 layout: layout.njk
 title: ESRI Infrastructure Hub
 ---
-{% from './_includes/_components.njk' import filtercard, card, button, stats, highlight  %}
+{% from './_includes/_components.njk' import filtercard, card, button, stats, highlight, hero  %}
+
+{{ hero({
+    title: "The hero title",
+    description:"A description of no more than two sentences-ish",
+    image:"",
+    headline:"testing",
+    date:"March 4, 2024",
+    links: [
+        {
+            text:"First Link",
+            link:"https://ny.gov",
+            arialabel:"testing"
+        }
+    ]
+    })
+}}
+
+
+
 
 {# {{
     highlight({
