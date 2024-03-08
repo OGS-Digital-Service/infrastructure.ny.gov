@@ -14,7 +14,7 @@
         <ul class="nysds-hero-links-list">
             {% for herolink in params.links%}
                 <li>
-                    <a class="nysds-hero-link" href="{{herolink.link}}">{{herolink.text}}</a>
+                    <a class="nysds-hero-link" href="{{herolink.link}}" {% if herolink.arialabel %} aria-label="{{herolink.arialabel}}" {%endif%}>{{herolink.text}}</a>
                     <span class="nysds-hero-link-arrow" aria-hidden="true"></span>  
                 </li>
             {% endfor %}
