@@ -9,7 +9,7 @@
     "build": "npx @11ty/eleventy"
   },
   "keywords": [],
-  "author": "",
+  "author": "OGS Digital Service",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
