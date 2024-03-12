@@ -1,14 +1,14 @@
 module.exports = function(eleventyConfig){
     eleventyConfig.setTemplateFormats([
-        "pdf",
         "md",
-        "njk",
-        "css"
+        "njk"
       ]);
 
       eleventyConfig.addPassthroughCopy("img");
       eleventyConfig.addPassthroughCopy("fonts");
       eleventyConfig.addPassthroughCopy("js");
+      eleventyConfig.addPassthroughCopy("css");
+      eleventyConfig.addPassthroughCopy("pdf");
 
     return {
         markdownTemplateEngine: "njk",    

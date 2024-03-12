@@ -313,7 +313,22 @@
     margin-bottom: 0px;
 }
 
+.global-nav-list-desktop {
+    display: none !important;
+}
+
+.global-nav-list-mobile {
+    display: flex !important;
+}
 @media (min-width: 992px) {
+    .global-nav-list-desktop {
+        display: flex !important;
+    }
+    
+    .global-nav-list-mobile {
+        display: none !important;
+    }
+
 
     .global-nav {
         flex-direction: row;

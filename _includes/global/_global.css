@@ -55,6 +55,14 @@
     align-items: center;
 }
 
+.global-nav-list-desktop {
+    display: none;
+}
+
+.global-nav-list-mobile {
+    display: flex;
+}
+
 .dropdown-menu {
     background:#154973;
     color: #fff;
@@ -118,6 +126,13 @@
 }
 
 @media (min-width: 992px) {
+    .global-nav-list-desktop {
+        display: flex;
+    }
+    
+    .global-nav-list-mobile {
+        display: none;
+    }
 
     .global-nav {
         flex-direction: row;
