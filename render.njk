@@ -1,0 +1,20 @@
+---
+layout: render-layout.njk
+title: Funding Opportunities
+component:
+---
+{% from './_includes/_components.njk' import filtercard, card, button, stats, highlight, hero, category  %}
+
+<style>
+{% if component == "cards" %}{% include './_includes/card/_cards.css'  %} {% endif %}
+{% if component == "filter" %}{% include './_includes/filtercard/_filtercards.css'  %} {% endif %}
+{% if component == "button" %}{% include './_includes/button/_button.css'  %} {% endif %}
+{% if component == "global" %}{% include './_includes/global/_global.css'  %} {% endif %}
+{% if component == "unav" %}{% include './_includes/unav/_unav.css'  %} {% endif %}
+{% if component == "stats" %}{% include './_includes/stats/_stats.css'  %} {% endif %}
+{% if component == "footer" %}{% include './_includes/footer/_footer.css'  %} {% endif %}
+{% if component == "highlight" %}{% include './_includes/highlight/_highlight.css'  %}  {% endif %}
+{% if component == "hero" %}{% include './_includes/hero/_hero.css'  %} {% endif %}
+{% if component == "category" %}{% include './_includes/category/_category.css'  %} {% endif %}
+</style>
+
