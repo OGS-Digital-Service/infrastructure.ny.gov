@@ -3,7 +3,7 @@ layout: render-layout.njk
 title: Funding Opportunities
 component:
 ---
-{% from './_includes/_components.njk' import filtercard, card, button, stats, highlight, hero, category  %}
+{% from './_includes/_components.njk' import filtercard, card, button, stats, highlight, hero, category, accordion  %}
 
 <style>
 {% if component == "cards" %}{% include './_includes/card/_cards.css'  %} {% endif %}
@@ -16,5 +16,6 @@ component:
 {% if component == "highlight" %}{% include './_includes/highlight/_highlight.css'  %}  {% endif %}
 {% if component == "hero" %}{% include './_includes/hero/_hero.css'  %} {% endif %}
 {% if component == "category" %}{% include './_includes/category/_category.css'  %} {% endif %}
+{% if component == "accordion" %}{% include './_includes/accordion/_accordion.css'  %} {% endif %}
 </style>
 
