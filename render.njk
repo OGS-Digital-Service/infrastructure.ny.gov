@@ -1,7 +1,7 @@
 ---
 layout: render-layout.njk
 title: Funding Opportunities
-component:
+component: stats
 ---
 {% from './_includes/_components.njk' import filtercard, card, button, stats, highlight, hero, category, accordion, backtop  %}
 
@@ -20,11 +20,3 @@ component:
 {% if component == "backtop" %}{% include './_includes/backtop/_backtop.css'  %} {% endif %}
 </style>
 
-
-
-{{
-    backtop({
-        link:"#main-region",
-        text:"back to top" 
-    })
-}}
