@@ -1,0 +1,26 @@
+---
+layout: render-layout.njk
+data: fundingsources
+---
+{% from './_includes/_components.njk' import table %}
+
+
+<style>
+{% include './_includes/table/_table.css'  %}
+</style>
+
+{{
+    table({
+        heading:"Test heading",
+        description:"testing description",
+        columns:[
+            {
+                title:"first"
+            },
+            {
+                title:"second"
+            }
+        ],
+        rowdata:'{%- include "./_includes/table/_rows.njk" -%}'
+    })
+}}
