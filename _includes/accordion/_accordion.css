@@ -34,6 +34,25 @@
     justify-content: space-between;
 }
 
+.accordion-data-button {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+}
+
+.accordion-agency {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #457AA5;
+    color: #fff;
+    width: fit-content;
+    padding: 4px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+
 .accordion-button-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512' width='18' height='18' %3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M416 208H272V64c0-17.7-14.3-32-32-32h-32c-17.7 0-32 14.3-32 32v144H32c-17.7 0-32 14.3-32 32v32c0 17.7 14.3 32 32 32h144v144c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V304h144c17.7 0 32-14.3 32-32v-32c0-17.7-14.3-32-32-32z'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
@@ -61,6 +80,9 @@
     background-color: #ededed;
     text-decoration: underline;
 }
+.accordion-button[aria-expanded=true] {
+    background-color: #ededed;
+}
 
 .accordion-button:focus {
     background-color: #ededed;
@@ -81,9 +103,17 @@
 .accordion-description {
     font-size: 16px;
     font-weight: normal;
-    padding: 20px;
+    padding: 5px 20px;
     display: flex;
     flex-direction: column;
+}
+
+.accordion-description:last-child {
+    padding-bottom: 20px;
+}
+
+.accordion-description h4 {
+    white-space: nowrap;
 }
 
 .accordion-cta {
@@ -114,9 +144,20 @@
     filter: invert(17%) sepia(100%) saturate(6232%) hue-rotate(214deg) brightness(91%) contrast(101%);
 }
 
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* media queries */
 @media (min-width: 992px) {
-    
+   .accordion-item {
+        flex-direction: row;
+        margin-bottom: -30px;
+    }
+   .accordion-description {
+        padding: 15px 20px;
+    }
     
 }

@@ -1,26 +1,24 @@
 ---
-layout: render-layout.njk
+layout: layout.njk
 data: fundingsources
 ---
-{% from './_includes/_components.njk' import table %}
+{% from './_includes/_components.njk' import accordion with context%}
 
 
-<style>
-{% include './_includes/table/_table.css'  %}
-</style>
+{# <style>
+    {% include '../_includes/accordion/_accordion.css'  %}
+    </style> #}
+
 
 {{
-    table({
-        heading:"Test heading",
-        description:"testing description",
-        columns:[
-            {
-                title:"first"
-            },
-            {
-                title:"second"
-            }
-        ],
-        rowdata:'{%- include "./_includes/table/_rows.njk" -%}'
+    accordion({
+        title:"something",
+        headline:"Funding Sources",
+        datadriven: true,
+        items:""
     })
 }}
+
+
+
+

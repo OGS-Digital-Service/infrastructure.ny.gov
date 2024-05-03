@@ -1,22 +1,81 @@
-{% if params.headline %}
+{% if params.datadriven === false %}
+    {% if params.headline %}
+            <h3 class="accordion-headline">{{params.headline}}</h3>
+        {% endif %}
+    <div class="accordion">
+        {% for item in params.items %}
+                <button class="accordion-button" 
+                        data-toggle="collapse" 
+                        data-target="#{{item.target}}">
+                {{item.title}}
+                    <span class="accordion-button-icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-item collapse" id="{{item.target}}">
+                    <div class="accordion-description">
+                        {{item.description | safe}}
+                        {% if item.ctalink %}
+                            <a href="{{item.ctalink}}" class="accordion-cta">{{item.ctatext}}<span class="accordion-cta-arrow" aria-hidden="true"></span></a>
+                        {% endif %}
+                    </div>
+                
+                </div>
+        {% endfor %}
+    </div>
+{% endif %}
+
+
+
+
+{% if params.datadriven === true %}
+
+    {% if params.headline %}
         <h3 class="accordion-headline">{{params.headline}}</h3>
     {% endif %}
-<div class="accordion">
-    {% for item in params.items %}
-            <button class="accordion-button" 
-                    data-toggle="collapse" 
-                    data-target="#{{item.target}}">
-            {{item.title}}
-                <span class="accordion-button-icon" aria-hidden="true"></span>
-            </button>
-            <div class="accordion-item collapse" id="{{item.target}}">
-                <div class="accordion-description">
-                    {{item.description | safe}}
-                    {% if item.ctalink %}
-                        <a href="{{item.ctalink}}" class="accordion-cta">{{item.ctatext}}<span class="accordion-cta-arrow" aria-hidden="true"></span></a>
-                    {% endif %}
+        
+    <div class="accordion">
+        {% for datapoint in fundingsources %}
+    
+                <button class="accordion-button" 
+                        data-toggle="collapse" 
+                        data-target="#loop-index{{loop.index}}">
+
+                    <span class="accordion-data-button">
+                        <span class="accordion-agency">{{datapoint.Agency_Name}}</span>
+                        <span>{{datapoint.Program_Name}}</span>
+                    </span>
+
+                    <span class="accordion-button-icon" aria-hidden="true"></span>
+                </button>
+
+                <div class="collapse" id="loop-index{{loop.index}}">
+                    <div class="accordion-item">
+                        <div class="accordion-description">
+                            <h4>Law </h4>
+                            <p> {{datapoint.Law}}</p>
+                        </div>
+                        <div class="accordion-description">
+                            <h4>Projected Opening Date </h4>
+                            <p> {{datapoint.Projected_Actual_Opening_Date}}</p>
+                        </div>
+                        <div class="accordion-description">
+                            <h4>Program Funding Available </h4>
+                            <p> {{datapoint.Program_Funding_Available}} </p>
+                        </div>
+                        
+                        <div class="accordion-description">
+                            <h4>Forecast Source</h4>
+                            <a href=""> Read more about the {{datapoint.Program_Name}}</a>
+                        </div>
+                    </div>
+                    <div class="accordion-description">
+                            <h4>Eligible Applicants</h4>
+                            <p>{{datapoint.Eligible_Applicants}}</p>
+                        </div>
+                    
+                
                 </div>
-               
-            </div>
-    {% endfor %}
-</div>
+                {% endfor %}
+       
+    </div>
+
+{% endif %}
