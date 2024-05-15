@@ -28,13 +28,18 @@
 
 {% if params.datadriven === true %}
 
+
     {% if params.headline %}
         <h3 class="accordion-headline">{{params.headline}}</h3>
+    {% endif %}
+
+    {% if params.multiselect === true %}
+        <button data-toggle="collapse" data-target=".multi-collapse"> Expand or Collapse All </button>
+        <button data-toggle="collapse" data-target=".BIL"> filter </button>
     {% endif %}
         
     <div class="accordion">
         {% for datapoint in fundingsources %}
-    
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index{{loop.index}}">
@@ -47,7 +52,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index{{loop.index}}">
+
+                <div class="collapse multi-collapse" id="loop-index{{loop.index}}">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -74,6 +80,7 @@
                     
                 
                 </div>
+                
                 {% endfor %}
        
     </div>

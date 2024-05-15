@@ -1175,7 +1175,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
+
+/* .accordion-filter-container {
+    display: flex;
+    flex-direction: column;
+} */
 
 .accordion-data-button {
     display: flex;
@@ -1557,13 +1563,18 @@
 
 
 
+
     
         <h3 class="accordion-headline">Funding Sources</h3>
+    
+
+    
+        <button data-toggle="collapse" data-target=".multi-collapse"> Expand or Collapse All </button>
+        <button data-toggle="collapse" data-target=".BIL"> filter </button>
     
         
     <div class="accordion">
         
-    
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index1">
@@ -1576,7 +1587,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index1">
+
+                <div class="collapse multi-collapse" id="loop-index1">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -1604,7 +1616,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index2">
@@ -1617,7 +1629,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index2">
+
+                <div class="collapse multi-collapse" id="loop-index2">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -1645,7 +1658,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index3">
@@ -1658,7 +1671,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index3">
+
+                <div class="collapse multi-collapse" id="loop-index3">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -1686,7 +1700,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index4">
@@ -1699,7 +1713,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index4">
+
+                <div class="collapse multi-collapse" id="loop-index4">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -1727,7 +1742,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index5">
@@ -1740,7 +1755,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index5">
+
+                <div class="collapse multi-collapse" id="loop-index5">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -1768,7 +1784,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index6">
@@ -1781,7 +1797,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index6">
+
+                <div class="collapse multi-collapse" id="loop-index6">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -1809,7 +1826,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index7">
@@ -1822,7 +1839,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index7">
+
+                <div class="collapse multi-collapse" id="loop-index7">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -1850,7 +1868,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index8">
@@ -1863,7 +1881,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index8">
+
+                <div class="collapse multi-collapse" id="loop-index8">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -1891,7 +1910,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index9">
@@ -1904,7 +1923,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index9">
+
+                <div class="collapse multi-collapse" id="loop-index9">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -1932,7 +1952,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index10">
@@ -1945,7 +1965,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index10">
+
+                <div class="collapse multi-collapse" id="loop-index10">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -1973,7 +1994,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index11">
@@ -1986,7 +2007,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index11">
+
+                <div class="collapse multi-collapse" id="loop-index11">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2014,7 +2036,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index12">
@@ -2027,7 +2049,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index12">
+
+                <div class="collapse multi-collapse" id="loop-index12">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2055,7 +2078,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index13">
@@ -2068,7 +2091,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index13">
+
+                <div class="collapse multi-collapse" id="loop-index13">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2096,7 +2120,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index14">
@@ -2109,7 +2133,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index14">
+
+                <div class="collapse multi-collapse" id="loop-index14">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2137,7 +2162,7 @@
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index15">
@@ -2150,7 +2175,8 @@
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index15">
+
+                <div class="collapse multi-collapse" id="loop-index15">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2182,7 +2208,7 @@ range of communities located across multiple states and regions</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index16">
@@ -2195,7 +2221,8 @@ range of communities located across multiple states and regions</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index16">
+
+                <div class="collapse multi-collapse" id="loop-index16">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2223,7 +2250,7 @@ range of communities located across multiple states and regions</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index17">
@@ -2236,7 +2263,8 @@ range of communities located across multiple states and regions</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index17">
+
+                <div class="collapse multi-collapse" id="loop-index17">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2264,7 +2292,7 @@ range of communities located across multiple states and regions</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index18">
@@ -2277,7 +2305,8 @@ range of communities located across multiple states and regions</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index18">
+
+                <div class="collapse multi-collapse" id="loop-index18">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2306,7 +2335,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index19">
@@ -2319,7 +2348,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index19">
+
+                <div class="collapse multi-collapse" id="loop-index19">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2347,7 +2377,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index20">
@@ -2360,7 +2390,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index20">
+
+                <div class="collapse multi-collapse" id="loop-index20">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2388,7 +2419,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index21">
@@ -2401,7 +2432,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index21">
+
+                <div class="collapse multi-collapse" id="loop-index21">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2429,7 +2461,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index22">
@@ -2442,7 +2474,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index22">
+
+                <div class="collapse multi-collapse" id="loop-index22">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2470,7 +2503,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index23">
@@ -2483,7 +2516,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index23">
+
+                <div class="collapse multi-collapse" id="loop-index23">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2511,7 +2545,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index24">
@@ -2524,7 +2558,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index24">
+
+                <div class="collapse multi-collapse" id="loop-index24">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2552,7 +2587,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index25">
@@ -2565,7 +2600,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index25">
+
+                <div class="collapse multi-collapse" id="loop-index25">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2593,7 +2629,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index26">
@@ -2606,7 +2642,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index26">
+
+                <div class="collapse multi-collapse" id="loop-index26">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2634,7 +2671,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index27">
@@ -2647,7 +2684,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index27">
+
+                <div class="collapse multi-collapse" id="loop-index27">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2675,7 +2713,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index28">
@@ -2688,7 +2726,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index28">
+
+                <div class="collapse multi-collapse" id="loop-index28">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2716,7 +2755,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index29">
@@ -2729,7 +2768,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index29">
+
+                <div class="collapse multi-collapse" id="loop-index29">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2757,7 +2797,7 @@ iii. a federally recognized Indian Tribe</p>
                 
                 </div>
                 
-    
+                
                 <button class="accordion-button" 
                         data-toggle="collapse" 
                         data-target="#loop-index30">
@@ -2770,7 +2810,8 @@ iii. a federally recognized Indian Tribe</p>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
                 </button>
 
-                <div class="collapse" id="loop-index30">
+
+                <div class="collapse multi-collapse" id="loop-index30">
                     <div class="accordion-item">
                         <div class="accordion-description">
                             <h4>Law </h4>
@@ -2797,6 +2838,7 @@ iii. a federally recognized Indian Tribe</p>
                     
                 
                 </div>
+                
                 
        
     </div>
