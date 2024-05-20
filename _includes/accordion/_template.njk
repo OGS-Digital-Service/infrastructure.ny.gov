@@ -66,17 +66,16 @@
                             <p> {{datapoint.Law}}</p>
                         </div>
                         <div class="accordion-description">
-                            <h4>Projected Opening Date </h4>
-                            <p> {{datapoint.Projected_Actual_Opening_Date}}</p>
-                        </div>
-                        <div class="accordion-description">
                             <h4>Program Funding Available </h4>
                             <p> {{datapoint.Program_Funding_Available}} </p>
                         </div>
                         
                         <div class="accordion-description">
                             <h4>More Information</h4>
-                            <a href="{{datapoint.Forecast_Source}}"> Read more about the {{datapoint.Program_Name}}</a>
+                            <ul>
+                            <li><a href="{{datapoint.Program_Page}}"> Read more about the {{datapoint.Program_Name}}</a></li>
+                            <li><a href="{{datapoint.Forecast_Source}}"> Forecast Source </a></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="accordion-description">
