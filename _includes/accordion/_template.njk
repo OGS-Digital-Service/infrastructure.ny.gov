@@ -34,8 +34,9 @@
     {% endif %}
 
     {% if params.multiselect === true %}
-        <button data-toggle="collapse" data-target=".multi-collapse"> Expand or Collapse All </button>
-        <button data-toggle="collapse" data-target=".BIL"> filter </button>
+    <div class="accordion-filter">
+        <button class="accordion-filter-button" data-toggle="collapse" data-target=".multi-collapse"> Expand or Collapse All </button>
+    </div>    
     {% endif %}
         
     <div class="accordion">
@@ -45,13 +46,16 @@
                         data-target="#loop-index{{loop.index}}">
 
                     <span class="accordion-data-button">
+                        <span class="accordion-mobile-date"><span class="accordion-bold">Projected Opening Date:</span> {{datapoint.Projected_Actual_Opening_Date}}</span>
                         <span class="accordion-agency">{{datapoint.Agency_Name}}</span>
                         <span>{{datapoint.Program_Name}}</span>
                     </span>
-
-                    
-
+                    <span class="accordion-data-button-date">
+                        <span><span class="accordion-bold">Projected Opening Date:</span> {{datapoint.Projected_Actual_Opening_Date}}</span>
+                    </span>
                     <span class="accordion-button-icon" aria-hidden="true"></span>
+
+
                 </button>
 
 
@@ -71,7 +75,7 @@
                         </div>
                         
                         <div class="accordion-description">
-                            <h4>Forecast Source</h4>
+                            <h4>More Information</h4>
                             <a href="{{datapoint.Forecast_Source}}"> Read more about the {{datapoint.Program_Name}}</a>
                         </div>
                     </div>
