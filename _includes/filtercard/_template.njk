@@ -13,6 +13,9 @@
                         {%if card.category === "IRA"%}
                             Inflation Reduction Act (IRA)
                         {%endif%}
+                        {%if card.category === "none"%}
+                            Infrastructure News
+                        {%endif%}
                         </span>
                     {%if card.agency %}
                         <span class="filtercard-agency"><span class="sr-only">Agency </span>{{card.agency}}</span>
@@ -57,6 +60,9 @@
                         {%endif%}
                         {%if card.category === "IRA"%}
                             Inflation Reduction Act (IRA)
+                        {%endif%}
+                        {%if card.category === "none"%}
+                            Infrastructure News
                         {%endif%}
                     </span>
                 </td>
