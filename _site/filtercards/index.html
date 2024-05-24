@@ -1280,9 +1280,10 @@
 .accordion-button:focus {
     background-color: #ededed;
     text-decoration: underline; 
-    outline: 3px solid #FACE00;
+    outline: 4px solid #FACE00;
+    outline-offset: -1.5px;
     border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;    
 }
 
 .accordion-button:active {
@@ -1299,6 +1300,10 @@
     padding: 5px 20px;
     display: flex;
     flex-direction: column;
+}
+
+.accordion-description h4 {
+    font-weight: bold;
 }
 
 .accordion-description:last-child {
