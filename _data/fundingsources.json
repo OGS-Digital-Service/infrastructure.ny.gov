@@ -36,42 +36,6 @@
     "Program_Page": "https://www.fhwa.dot.gov/lowcarbon/"
   },
   {
-    "Program_Name": "Charging & Fueling Infrastructure Grants (Community charging)",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
-    "Program_Funding_Available": "$1,250,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "State or political subdivision of a State, Metropolitan Planning Organization, Local government, Special purpose district or public authority with a transportation function, Tribe, Territory",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Federal Highway Administration",
-    "Program_Page": "https://www.transportation.gov/rural/grant-toolkit/charging-and-fueling-infrastructure-grant-program"
-  },
-  {
-    "Program_Name": "Charging & Fueling Infrastructure Grants (Corridor charging)",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
-    "Program_Funding_Available": "$1,250,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "State or political subdivision of a State, Metropolitan Planning Organizations, Local government, Special purpose district or public authority with a transportation function, Tribe, Territory",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Federal Highway Administration",
-    "Program_Page": "https://www.transportation.gov/rural/grant-toolkit/charging-and-fueling-infrastructure-grant-program"
-  },
-  {
-    "Program_Name": "National Electric Vehicle Infrastructure (NEVI) 10% Set Aside",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
-    "Program_Funding_Available": "$500,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "States (including District of Columbia and Puerto Rico)",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Federal Highway Administration",
-    "Program_Page": "https://www.fhwa.dot.gov/bipartisan-infrastructure-law/nevi_formula_program.cfm"
-  },
-  {
     "Program_Name": "Reduction of Truck Emissions at Port Facilities",
     "Agency_Name": "US Department of Transportation",
     "Projected_Actual_Opening_Date": "Late Spring 2024",
@@ -82,18 +46,6 @@
     "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
     "Bureau": "Federal Highway Administration",
     "Program_Page": "https://www.transportation.gov/rural/grant-toolkit/reduction-truck-emissions-port-facilities"
-  },
-  {
-    "Program_Name": "Airport Terminal Program",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
-    "Program_Funding_Available": "$5,000,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "Public agency, Private entity, State and Tribal Government owning a public use National Plan of Integrated Airport Systems airport. Secretary of the Interior for Midway Island Airport, the Republic of the Marshall Islands, Federated States of Micronesia and Republic of Palau.",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Federal Aviation Administration",
-    "Program_Page": "https://www.faa.gov/bil/airport-terminals"
   },
   {
     "Program_Name": "Floating Offshore Wind",
@@ -130,6 +82,18 @@
     "Forecast_Source": "https://eere-exchange.energy.gov/Default.aspx#FoaIdd46a97aa-7342-42d0-abba-249402f61001",
     "Bureau": "Office of Energy Efficiency and Renewable Energy",
     "Program_Page": "https://energycommunities.gov/funding-opportunity/bil-provision-41007b1-aerodynamics-for-offshore-wind-performance-and-reliability/"
+  },
+  {
+    "Program_Name": "Rural And Municipal Utility Advances Cybersecurity Grant And Technical Assistance Program",
+    "Agency_Name": "US Department of Energy",
+    "Projected_Actual_Opening_Date": "Late Spring 2024",
+    "Program_Funding_Available": "$250,000,000",
+    "Law": "BIL",
+    "Program_Description": "",
+    "Eligible_Applicants": "Rural Electric Cooperatives, Municipally-Owned Electric Utilities, Other State-Owned Utilities, Small Investor-Owned Utilities",
+    "Forecast_Source": "https://www.whitehouse.gov/wp-content/uploads/2024/05/Open-and-Upcoming-Infrastructure-Funding-Opportunities-May-10-2024-FINAL.pdf",
+    "Bureau": "Cybersecurity, Energy Security, and Emergency Response",
+    "Program_Page": "https://www.energy.gov/ceser/rural-and-municipal-utility-advances-cybersecurity-grant-and-technical-assistance-program"
   },
   {
     "Program_Name": "Offshore Wind National and Regional Research and Development",
@@ -178,6 +142,18 @@
     "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
     "Bureau": "Office of the Secretary",
     "Program_Page": "https://www.transportation.gov/buildamerica/RuralandTribalGrants"
+  },
+  {
+    "Program_Name": "Airport Terminal Program",
+    "Agency_Name": "US Department of Transportation",
+    "Projected_Actual_Opening_Date": "Summer 2024",
+    "Program_Funding_Available": "$5,000,000,000",
+    "Law": "BIL",
+    "Program_Description": "",
+    "Eligible_Applicants": "Public agency, Private entity, State and Tribal Government owning a public use National Plan of Integrated Airport Systems airport. Secretary of the Interior for Midway Island Airport, the Republic of the Marshall Islands, Federated States of Micronesia and Republic of Palau.",
+    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
+    "Bureau": "Federal Aviation Administration",
+    "Program_Page": "https://www.faa.gov/bil/airport-terminals"
   },
   {
     "Program_Name": "Reconnecting Communities Pilot Program",
