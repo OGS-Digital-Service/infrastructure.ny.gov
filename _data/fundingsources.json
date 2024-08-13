@@ -1,32 +1,8 @@
 [
   {
-    "Program_Name": "National Culvert Removal, Replacement, & Restoration",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
-    "Program_Funding_Available": "$1,000,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "(1) A State; (2) a unit of local government; or (3) an Tribe.",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Federal Highway Administration",
-    "Program_Page": "https://www.fhwa.dot.gov/engineering/hydraulics/culverthyd/aquatic/culvertaop.cfm"
-  },
-  {
-    "Program_Name": "Railroad Crossing Elimination",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
-    "Program_Funding_Available": "$3,000,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "A State, including the District of Columbia, Puerto Rico, and other United States territories and possessions. A political subdivision of a State. Federally recognized Tribe. A unit of local government or a group of local governments. A public port authority. A metropolitan planning organization. A group of entities described above.",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Federal Railroad Administration",
-    "Program_Page": "https://railroads.dot.gov/grants-loans/competitive-discretionary-grant-programs/railroad-crossing-elimination-grant-program"
-  },
-  {
     "Program_Name": "Low-Carbon Transportation Materials Grants – Round 2 Non-State",
     "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
+    "Projected_Actual_Opening_Date": "August 2024",
     "Program_Funding_Available": "$2,000,000,000",
     "Law": "IRA",
     "Program_Description": "",
@@ -36,21 +12,69 @@
     "Program_Page": "https://www.fhwa.dot.gov/lowcarbon/"
   },
   {
-    "Program_Name": "Reduction of Truck Emissions at Port Facilities",
+    "Program_Name": "Promoting Resilient Operations for Transformative, Efficient, and Cost-saving Transportation (PROTECT)",
     "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
-    "Program_Funding_Available": "$400,000,000",
+    "Projected_Actual_Opening_Date": "August 2024",
+    "Program_Funding_Available": "$1,400,000,000",
     "Law": "BIL",
     "Program_Description": "",
-    "Eligible_Applicants": "State Governments; Local Governments; Planning and Project Organizations; Transportation Providers and Operators; Private-Sector Applicants",
+    "Eligible_Applicants": "State (or political subdivision of a State), metropolitan planning organization, local government, special purpose district or public authority with a transportation function, Tribe, Federal land management agency (applying jointly with State(s)); Different eligibilities apply for at-risk coastal infrastructure grants.",
     "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
     "Bureau": "Federal Highway Administration",
-    "Program_Page": "https://www.transportation.gov/rural/grant-toolkit/reduction-truck-emissions-port-facilities"
+    "Program_Page": "https://www.transportation.gov/rural/grant-toolkit/promoting-resilient-operations-transformative-efficient-and-cost-saving"
+  },
+  {
+    "Program_Name": "Rural and Tribal Assistance Pilot Program",
+    "Agency_Name": "US Department of Transportation",
+    "Projected_Actual_Opening_Date": "September 2024",
+    "Program_Funding_Available": "$10,000,000",
+    "Law": "BIL",
+    "Program_Description": "",
+    "Eligible_Applicants": "i. a unit of local government or political subdivision that is located outside of an urbanized area  with a population of more than 150,000 residents as determined by the Bureau of the Census; ii. a state seeking to advance a project in an area located outside of an urbanized area with a population of more than 150,000 residents as determined by the Bureau of the Census;\niii. a federally recognized Indian Tribe",
+    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
+    "Bureau": "Office of the Secretary",
+    "Program_Page": "https://www.transportation.gov/buildamerica/RuralandTribalGrants"
+  },
+  {
+    "Program_Name": "Regional Infrastructure Accelerators Demonstration Program",
+    "Agency_Name": "US Department of Transportation",
+    "Projected_Actual_Opening_Date": "September 2024",
+    "Program_Funding_Available": "TBD",
+    "Law": "Other",
+    "Program_Description": "",
+    "Eligible_Applicants": "A U.S. public entity, including a state, multi-state or multi-jurisdictional group, municipality, county, a special purpose district or public authority with a transportation function including a port authority, a tribal government or consortium of tribal governments, MPO, regional transportation planning organization (RTPO), Regional Transportation Commission, or a political subdivision of a State or local government, or combination of two or more of the foregoing.",
+    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
+    "Bureau": "Build America Bureau",
+    "Program_Page": "https://www.transportation.gov/buildamerica/technical-assistance/regional-infrastructure-accelerators-program"
+  },
+  {
+    "Program_Name": "Federal-State Partnership for Intercity Passenger Rail (National)",
+    "Agency_Name": "US Department of Transportation",
+    "Projected_Actual_Opening_Date": "September 2024",
+    "Program_Funding_Available": "$36,000,000,000",
+    "Law": "BIL",
+    "Program_Description": "",
+    "Eligible_Applicants": "States, including the District of Columbia; A group of States; An InterState Compact; A public agency or publicly chartered authority established by one or more States; A political subdivision of a State; Amtrak, acting on its own behalf or under a cooperative agreement with one or more States; Federally recognized Tribe; Any combination of the entities above.",
+    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
+    "Bureau": "Federal Railroad Administration",
+    "Program_Page": "https://railroads.dot.gov/federal-state-partnership-intercity-passenger"
+  },
+  {
+    "Program_Name": "Oceans of Opportunity: U.S. Wave Energy Open Water Testing",
+    "Agency_Name": "US Department of Energy",
+    "Projected_Actual_Opening_Date": "September 2024",
+    "Program_Funding_Available": "$112,500,000",
+    "Law": "Other",
+    "Program_Description": "",
+    "Eligible_Applicants": "TBD",
+    "Forecast_Source": "https://www.energy.gov/eere/water/notice-intent-1125-million-funding-opportunity-support-us-wave-energy-development",
+    "Bureau": "Water Power Technologies Office",
+    "Program_Page": "https://www.energy.gov/eere/water/notice-intent-1125-million-funding-opportunity-support-us-wave-energy-development"
   },
   {
     "Program_Name": "Floating Offshore Wind",
     "Agency_Name": "US Department of Energy",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
+    "Projected_Actual_Opening_Date": "Summer 2024",
     "Program_Funding_Available": "$4,200,000",
     "Law": "Other",
     "Program_Description": "",
@@ -60,21 +84,9 @@
     "Program_Page": "https://www.energy.gov/eere/office-energy-efficiency-renewable-energy"
   },
   {
-    "Program_Name": "Water Power Innovation Network",
-    "Agency_Name": "US Department of Energy",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
-    "Program_Funding_Available": "$5,000,000",
-    "Law": "Other",
-    "Program_Description": "",
-    "Eligible_Applicants": "TBD",
-    "Forecast_Source": "https://energycommunities.gov/funding-opportunity/water-power-innovation-network/",
-    "Bureau": "Water Powers Technology Office",
-    "Program_Page": "https://energycommunities.gov/funding-opportunity/water-power-innovation-network/"
-  },
-  {
     "Program_Name": "Aerodynamics for Offshore Wind Performance and Reliability",
     "Agency_Name": "US Department of Energy",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
+    "Projected_Actual_Opening_Date": "Summer 2024",
     "Program_Funding_Available": "$60,000,000",
     "Law": "BIL",
     "Program_Description": "",
@@ -86,7 +98,7 @@
   {
     "Program_Name": "Rural And Municipal Utility Advances Cybersecurity Grant And Technical Assistance Program",
     "Agency_Name": "US Department of Energy",
-    "Projected_Actual_Opening_Date": "Late Spring 2024",
+    "Projected_Actual_Opening_Date": "Summer 2024",
     "Program_Funding_Available": "$250,000,000",
     "Law": "BIL",
     "Program_Description": "",
@@ -96,21 +108,9 @@
     "Program_Page": "https://www.energy.gov/ceser/rural-and-municipal-utility-advances-cybersecurity-grant-and-technical-assistance-program"
   },
   {
-    "Program_Name": "Offshore Wind National and Regional Research and Development",
-    "Agency_Name": "US Department of Energy",
-    "Projected_Actual_Opening_Date": "Late Spring/Summer 2024",
-    "Program_Funding_Available": "$48,000,000",
-    "Law": "Other",
-    "Program_Description": "",
-    "Eligible_Applicants": "TBD",
-    "Forecast_Source": "https://www.energy.gov/eere/wind/notice-intent-48-million-funding-opportunity-national-and-regional-research-and",
-    "Bureau": "Wind Energy Technologies Office",
-    "Program_Page": "https://www.energy.gov/eere/wind/notice-intent-48-million-funding-opportunity-national-and-regional-research-and"
-  },
-  {
     "Program_Name": "SuperTruck Charge",
     "Agency_Name": "US Department of Energy",
-    "Projected_Actual_Opening_Date": "Late Spring/Summer 2024",
+    "Projected_Actual_Opening_Date": "Summer 2024",
     "Program_Funding_Available": "TBD",
     "Law": "Other",
     "Program_Description": "",
@@ -120,105 +120,21 @@
     "Program_Page": "https://energycommunities.gov/funding-opportunity/supertruck-charge/"
   },
   {
-    "Program_Name": "Connected Communities",
-    "Agency_Name": "US Department of Energy",
-    "Projected_Actual_Opening_Date": "Late Spring/Summer 2024",
-    "Program_Funding_Available": "TBD",
-    "Law": "Other",
-    "Program_Description": "",
-    "Eligible_Applicants": "TBD",
-    "Forecast_Source": "https://eere-exchange.energy.gov/Default.aspx#FoaId1a6a8a70-24c6-4e7a-9448-d71f26cdb942",
-    "Bureau": "Building Technologies Office",
-    "Program_Page": "https://www.energy.gov/eere/solar/connected-communities-funding-program"
-  },
-  {
-    "Program_Name": "Rural and Tribal Assistance Pilot Program",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Summer 2024",
-    "Program_Funding_Available": "$10,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "i. a unit of local government or political subdivision that is located outside of an urbanized area  with a population of more than 150,000 residents as determined by the Bureau of the Census; ii. a state seeking to advance a project in an area located outside of an urbanized area with a population of more than 150,000 residents as determined by the Bureau of the Census;\niii. a federally recognized Indian Tribe",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Office of the Secretary",
-    "Program_Page": "https://www.transportation.gov/buildamerica/RuralandTribalGrants"
-  },
-  {
-    "Program_Name": "Airport Terminal Program",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Summer 2024",
-    "Program_Funding_Available": "$5,000,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "Public agency, Private entity, State and Tribal Government owning a public use National Plan of Integrated Airport Systems airport. Secretary of the Interior for Midway Island Airport, the Republic of the Marshall Islands, Federated States of Micronesia and Republic of Palau.",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Federal Aviation Administration",
-    "Program_Page": "https://www.faa.gov/bil/airport-terminals"
-  },
-  {
-    "Program_Name": "Reconnecting Communities Pilot Program",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Summer 2024",
-    "Program_Funding_Available": "$1,000,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "Owner of an eligible facility (may partner with any of the eligible entities for a planning grant)",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Office of the Secretary",
-    "Program_Page": "https://www.transportation.gov/grants/rcnprogram/about-rcp"
-  },
-  {
-    "Program_Name": "Strengthening Mobility & Revolutionizing Transportation (SMART) Grants",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Summer 2024",
-    "Program_Funding_Available": "$500,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "(A) A State; (B) a political subdivision of a State; (C) a Tribal government; (D) a public transit agency or authority; (E) a public toll authority; (F) a metropolitan planning organization; and (G) a group of two or more of these eligible entities",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Office of the Secretary",
-    "Program_Page": "https://www.transportation.gov/grants/SMART"
-  },
-  {
-    "Program_Name": "Regional Infrastructure Accelerators Demonstration Program",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Summer 2024",
-    "Program_Funding_Available": "",
-    "Law": "Other",
-    "Program_Description": "",
-    "Eligible_Applicants": "A U.S. public entity, including a state, multi-state or multi-jurisdictional group, municipality, county, a special purpose district or public authority with a transportation function including a port authority, a tribal government or consortium of tribal governments, MPO, regional transportation planning organization (RTPO), Regional Transportation Commission, or a political subdivision of a State or local government, or combination of two or more of the foregoing.",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Build America Bureau",
-    "Program_Page": "https://www.transportation.gov/buildamerica/technical-assistance/regional-infrastructure-accelerators-program"
-  },
-  {
-    "Program_Name": "Promoting Resilient Operations for Transformative, Efficient, and Cost-saving Transportation (PROTECT)",
-    "Agency_Name": "US Department of Transportation",
-    "Projected_Actual_Opening_Date": "Summer 2024",
-    "Program_Funding_Available": "$1,400,000,000",
-    "Law": "BIL",
-    "Program_Description": "",
-    "Eligible_Applicants": "State (or political subdivision of a State), metropolitan planning organization, local government, special purpose district or public authority with a transportation function, Tribe, Federal land management agency (applying jointly with State(s)); Different eligibilities apply for at-risk coastal infrastructure grants.",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Federal Highway Administration",
-    "Program_Page": "https://www.transportation.gov/rural/grant-toolkit/promoting-resilient-operations-transformative-efficient-and-cost-saving"
-  },
-  {
-    "Program_Name": "Smart Manufacturing Technologies for Material and Process Innovation",
+    "Program_Name": "Weatherization Assistance Program Enhancement & Innovation",
     "Agency_Name": "US Department of Energy",
     "Projected_Actual_Opening_Date": "Summer 2024",
-    "Program_Funding_Available": "TBD",
-    "Law": "Other",
+    "Program_Funding_Available": "$36,000,000",
+    "Law": "BIL",
     "Program_Description": "",
     "Eligible_Applicants": "TBD",
-    "Forecast_Source": "https://eere-exchange.energy.gov/#FoaId8d43503d-98dd-4f75-abab-f46219aa1657",
-    "Bureau": "Advanced Materials and Manufacturing Technologies Office",
-    "Program_Page": "https://energycommunities.gov/funding-opportunity/smart-manufacturing-technologies-for-material-and-process-innovation/"
+    "Forecast_Source": "https://energycommunities.gov/funding-opportunity/weatherization-assistance-program-enhancement-innovation/",
+    "Bureau": "Office of State and Community Energy Programs",
+    "Program_Page": "https://www.energy.gov/scep/wap/weatherization-assistance-program"
   },
   {
     "Program_Name": "Support for Clean Hydrogen Hub Projects",
     "Agency_Name": "US Department of Energy",
-    "Projected_Actual_Opening_Date": "Summer/Fall 2024",
+    "Projected_Actual_Opening_Date": "Fall 2024",
     "Program_Funding_Available": "$1,000,000,000",
     "Law": "BIL",
     "Program_Description": "",
@@ -228,16 +144,16 @@
     "Program_Page": "https://energycommunities.gov/funding-opportunity/implementing-entity-or-entities-for-demand-side-support-mechanism-for-clean-hydrogen-hub-projects/"
   },
   {
-    "Program_Name": "Federal-State Partnership for Intercity Passenger Rail (National)",
-    "Agency_Name": "US Department of Transportation",
+    "Program_Name": "Critical Facility Energy Resilience",
+    "Agency_Name": "US Department of Energy",
     "Projected_Actual_Opening_Date": "Fall 2024",
-    "Program_Funding_Available": "$36,000,000,000",
-    "Law": "BIL",
+    "Program_Funding_Available": "$15,000,000",
+    "Law": "Other",
     "Program_Description": "",
-    "Eligible_Applicants": "States, including the District of Columbia; A group of States; An InterState Compact; A public agency or publicly chartered authority established by one or more States; A political subdivision of a State; Amtrak, acting on its own behalf or under a cooperative agreement with one or more States; Federally recognized Tribe; Any combination of the entities above.",
-    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
-    "Bureau": "Federal Railroad Administration",
-    "Program_Page": "https://railroads.dot.gov/federal-state-partnership-intercity-passenger"
+    "Eligible_Applicants": "Unrestricted",
+    "Forecast_Source": "https://energycommunities.gov/funding-opportunity/critical-facility-energy-resilience-cifer/",
+    "Bureau": "Department of Energy",
+    "Program_Page": "https://betterbuildingssolutioncenter.energy.gov/webinars/innovative-strategies-resilience-critical-facilities"
   },
   {
     "Program_Name": "Local and Regional Project Assistance Grants (RAISE)",
@@ -250,6 +166,18 @@
     "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
     "Bureau": "Office of the Secretary",
     "Program_Page": "https://www.transportation.gov/RAISEgrants"
+  },
+  {
+    "Program_Name": "Reduction of Truck Emissions at Port Facilities",
+    "Agency_Name": "US Department of Transportation",
+    "Projected_Actual_Opening_Date": "Fall 2024",
+    "Program_Funding_Available": "$400,000,000",
+    "Law": "BIL",
+    "Program_Description": "",
+    "Eligible_Applicants": "State Governments; Local Governments; Planning and Project Organizations; Transportation Providers and Operators; Private-Sector Applicants",
+    "Forecast_Source": "https://www.transportation.gov/bipartisan-infrastructure-law/key-notices-funding-opportunity",
+    "Bureau": "Federal Highway Administration",
+    "Program_Page": "https://www.transportation.gov/rural/grant-toolkit/reduction-truck-emissions-port-facilities"
   },
   {
     "Program_Name": "Diesel Emissions Reduction Act (DERA) Inflation Reduction Act and National grants program",
@@ -274,5 +202,77 @@
     "Forecast_Source": "https://www.epa.gov/invest/epa-funding-announcements-bipartisan-infrastructure-law-and-inflation-reduction-act",
     "Bureau": "US Environmental Protection Agency",
     "Program_Page": "https://www.epa.gov/cleanschoolbus"
+  },
+  {
+    "Program_Name": "Brownfields Assessment, Revolving Loan Fund and Cleanup Grants",
+    "Agency_Name": "US Environmental Protection Agency",
+    "Projected_Actual_Opening_Date": "Fall 2024",
+    "Program_Funding_Available": "$1,200,000,000",
+    "Law": "BIL",
+    "Program_Description": "",
+    "Eligible_Applicants": "States, Territories, Local Government entities and non-profit organizations",
+    "Forecast_Source": "https://www.epa.gov/invest/epa-funding-announcements-bipartisan-infrastructure-law-and-inflation-reduction-act",
+    "Bureau": "US Environmental Protection Agency",
+    "Program_Page": "https://www.epa.gov/brownfields/brownfields-revolving-loan-fund-rlf-grants"
+  },
+  {
+    "Program_Name": "Solid Waste Infrastructure for Recycling – States and Territories Grants",
+    "Agency_Name": "US Environmental Protection Agency",
+    "Projected_Actual_Opening_Date": "Fall 2024",
+    "Program_Funding_Available": "$275,000,000",
+    "Law": "BIL",
+    "Program_Description": "",
+    "Eligible_Applicants": "States and Territories",
+    "Forecast_Source": "https://www.epa.gov/invest/epa-funding-announcements-bipartisan-infrastructure-law-and-inflation-reduction-act",
+    "Bureau": "US Environmental Protection Agency",
+    "Program_Page": "https://www.epa.gov/infrastructure/solid-waste-infrastructure-recycling-grants-states-and-territories"
+  },
+  {
+    "Program_Name": "Solid Waste Infrastructure for Recycling – Community Grants",
+    "Agency_Name": "US Environmental Protection Agency",
+    "Projected_Actual_Opening_Date": "Fall 2024",
+    "Program_Funding_Available": "$275,000,000",
+    "Law": "BIL",
+    "Program_Description": "",
+    "Eligible_Applicants": "Local government entities",
+    "Forecast_Source": "https://www.epa.gov/invest/epa-funding-announcements-bipartisan-infrastructure-law-and-inflation-reduction-act",
+    "Bureau": "US Environmental Protection Agency",
+    "Program_Page": "https://www.epa.gov/infrastructure/solid-waste-infrastructure-recycling-grants-communities"
+  },
+  {
+    "Program_Name": "Solid Waste Infrastructure for Recycling – Tribes and Intertribal Consortia and Grants",
+    "Agency_Name": "US Environmental Protection Agency",
+    "Projected_Actual_Opening_Date": "Fall 2024",
+    "Program_Funding_Available": "$275,000,000",
+    "Law": "BIL",
+    "Program_Description": "",
+    "Eligible_Applicants": "Federally recognized Tribes",
+    "Forecast_Source": "https://www.epa.gov/invest/epa-funding-announcements-bipartisan-infrastructure-law-and-inflation-reduction-act",
+    "Bureau": "US Environmental Protection Agency",
+    "Program_Page": "https://www.epa.gov/infrastructure/solid-waste-infrastructure-recycling-grants-tribes-and-intertribal-consortia"
+  },
+  {
+    "Program_Name": "Recycling, Education and Outreach (REO) Grants",
+    "Agency_Name": "US Environmental Protection Agency",
+    "Projected_Actual_Opening_Date": "Fall 2024",
+    "Program_Funding_Available": "$75,000,000",
+    "Law": "BIL",
+    "Program_Description": "",
+    "Eligible_Applicants": "States, Territories, Local governments. Federally recognized tribal governments. Native Hawaiian organizations, Nonprofit organizations, Public-private partnerships",
+    "Forecast_Source": "https://www.epa.gov/invest/epa-funding-announcements-bipartisan-infrastructure-law-and-inflation-reduction-act",
+    "Bureau": "US Environmental Protection Agency",
+    "Program_Page": "https://www.epa.gov/infrastructure/consumer-recycling-education-and-outreach-grant-program"
+  },
+  {
+    "Program_Name": "Funding to Address Greenhouse Gas and Zero-Emission Standards for Mobile Sources",
+    "Agency_Name": "US Environmental Protection Agency",
+    "Projected_Actual_Opening_Date": "Winter 2024",
+    "Program_Funding_Available": "$5,000,000",
+    "Law": "IRA",
+    "Program_Description": "",
+    "Eligible_Applicants": "States",
+    "Forecast_Source": "https://www.epa.gov/invest/epa-funding-announcements-bipartisan-infrastructure-law-and-inflation-reduction-act",
+    "Bureau": "US Environmental Protection Agency",
+    "Program_Page": "https://www.epa.gov/inflation-reduction-act/tackling-climate-pollution"
   }
 ]
