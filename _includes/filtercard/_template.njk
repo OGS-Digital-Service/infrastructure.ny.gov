@@ -76,5 +76,46 @@
         </tbody>
     </table>
 </div>
+{% endif %}
 
+
+
+
+
+
+{%if params.datadriven === true%}
+<div class="filtercards">
+    <h3 class="filtercard-heading"> {{params.heading}}</h3>
+    <ul class="filtercard-list" aria-live="polite">
+        {% for card in news %}
+            <li class="filtercard-list-item">
+                    <div class="filtercard-top">
+                        <span class="filtercard-category">
+                            <span class="sr-only">Category of </span>
+                        {%if card.Category === "BIL"%}
+                            Bipartisan Infrastructure Law (BIL)
+                        {%endif%}
+                        {%if card.Category === "IRA"%}
+                            Inflation Reduction Act (IRA)
+                        {%endif%}
+                        {%if card.Category === "" %}
+                            Infrastructure News
+                        {%endif%}
+                        </span>
+                    {%if card.State_Federal_Agency %}
+                        <span class="filtercard-agency"><span class="sr-only">Agency </span>{{card.State_Federal_Agency}}</span>
+                    {%endif%}
+                    </div>
+                    <span class="filtercard-divider" aria-hidden="true"></span>
+                    <a href="{{card.Link}}" class="filtercard-link">{{card.Article_Title}}</a>
+                    {%if card.Date%}
+                        <span class="filtercard-date"> <span class="sr-only">published </span>{{card.Date}}</span>
+                    {%endif%}
+                {% if card.Description %}
+                    <p class="filtercard-description">{{card.Description}}</p>
+                {%endif%}
+            </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endif %}

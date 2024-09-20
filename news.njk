@@ -1,0 +1,15 @@
+---
+layout: layout.njk
+title: News and Announcements
+alias: /news
+data: news
+---
+{% from './_includes/_components.njk' import filtercard with context %}
+
+{{
+    filtercard({
+        heading:"Announcements",
+        datadriven: true,
+        cards:""
+    })
+}}
