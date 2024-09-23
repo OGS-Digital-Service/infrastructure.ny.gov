@@ -1,10 +1,15 @@
 ---
-layout: layout.njk
+layout: render-layout.njk
 title: News and Announcements
 alias: /news
 data: news
 ---
 {% from './_includes/_components.njk' import filtercard with context %}
+
+<style>
+    {% include './_includes/filtercard/_filtercards.css'  %}
+    {% include './_includes/button/_button.css'  %}
+</style>
 
 {{
     filtercard({
