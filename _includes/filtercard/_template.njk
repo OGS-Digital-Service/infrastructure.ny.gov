@@ -86,8 +86,11 @@
 {%if params.datadriven === true%}
 <div class="filtercards">
     <h3 class="filtercard-heading"> {{params.heading}}</h3>
+
+   
     <ul class="filtercard-list" aria-live="polite">
         {% for card in news %}
+            {% if card.Archive === "FALSE" %} 
             <li class="filtercard-list-item">
                     <div class="filtercard-top">
                         <span class="filtercard-category">
@@ -115,7 +118,56 @@
                     <p class="filtercard-description">{{card.Description}}</p>
                 {%endif%}
             </li>
+            {% endif %}
         {% endfor %}
     </ul>
+
+    <div class="button-container">
+         <button class="nysds-button"
+                 data-toggle="collapse"
+                 data-target="#archive"
+         > Older Infrastructure News </button>
+    </div>
+    <div class="collapse" id="archive">
+        <table class="filter-archive-table">
+            <caption class="sr-only">{{params.heading}}
+                </caption>
+            <thead>
+                <tr class="filter-archive-table-header">
+                    <th scope="col" >Category</th>
+                    <th  scope="col" class="filter-table-title">Title</th>
+                    <th  scope="col" class="filter-table-date">Published Date</th>
+                    <th scope="col" >Agency</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for card in news %}
+                {% if card.Archive === "TRUE" %} 
+                    <tr class="filter-archive-table-row">
+                        <td>
+                            <span>
+                                <span class="sr-only">Category of </span>
+                                {%if card.Category === "BIL"%}
+                                    Bipartisan Infrastructure Law (BIL)
+                                {%endif%}
+                                {%if card.Category === "IRA"%}
+                                    Inflation Reduction Act (IRA)
+                                {%endif%}
+                                {%if card.Category === ""%}
+                                    Infrastructure News
+                                {%endif%}
+                            </span>
+                        </td>
+                        <td>
+                            <a href="{{card.Link}}" class="filter-archive-link">{{card.Article_Title}}</a>
+                        </td>
+                        <td>{{card.Date}}</td>
+                        <td>{{card.State_Federal_Agency}}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
 </div>
 {% endif %}
