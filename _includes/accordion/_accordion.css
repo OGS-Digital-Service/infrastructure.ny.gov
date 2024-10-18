@@ -67,7 +67,7 @@
 .accordion-data-button {
     display: flex;
     flex-direction: column;
-    max-width: 90%;
+    width: 80%;
 }
 
 .accordion-data-button-date {
@@ -104,7 +104,7 @@
 }
 
 .accordion-program {
-    max-width: 97%;
+    max-width: 90%;
 }
 
 .accordion-button-icon {
@@ -235,6 +235,9 @@
     }
     .accordion-mobile-date {
         display: none;
+    }
+    .accordion-data-button {
+        width: 60%;
     }
     
 }
