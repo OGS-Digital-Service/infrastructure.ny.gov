@@ -1,5 +1,185 @@
 [
   {
+    "Article_Title": "Governor Hochul Announces New York Has Landed the First National Semiconductor Technology Center Facility in the Nation",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-new-york-has-landed-first-national-semiconductor-technology-center",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "Oct 31, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/31/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration Announces NY CREATES’ Albany NanoTech Complex as the first CHIPS for America R&D Flagship Facility and Planned Site for the estimated $825 Million CHIPS for America EUV Accelerator",
+    "Link": "https://www.commerce.gov/news/press-releases/2024/10/biden-harris-administration-announces-ny-creates-albany-nanotech",
+    "State_Federal_Agency": "US Department of Commerce",
+    "Category": "",
+    "Date": "Oct 31, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/31/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration Announces Nearly $45 Million to Slash Electric Vehicle Battery Recycling Costs",
+    "Link": "https://www.energy.gov/articles/biden-harris-administration-announces-nearly-45-million-slash-electric-vehicle-battery",
+    "State_Federal_Agency": "US Department of Energy",
+    "Category": "BIL",
+    "Date": "Oct 31, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/31/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration Announces Nearly $635 Million for 22 Bridge Projects Across the Country",
+    "Link": "https://www.transportation.gov/briefing-room/investing-america-biden-harris-administration-announces-nearly-635-million-22-bridge",
+    "State_Federal_Agency": "US Department of Transportation",
+    "Category": "BIL",
+    "Date": "Oct 31, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/31/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration Approves and Recommends for Award New York’s Digital Equity Capacity Grant Application for More Than $36 Million",
+    "Link": "https://www.internetforall.gov/news-media/biden-harris-administration-approves-and-recommends-award-new-yorks-digital-equity",
+    "State_Federal_Agency": "US Department of Commerce",
+    "Category": "BIL",
+    "Date": "Oct 31, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/31/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul and Representative Ryan Announce $12 Million State Grant to Replace Lead Water Pipes and Protect Drinking Water in Poughkeepsie",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-and-representative-ryan-announce-12-million-state-grant-replace-lead-water",
+    "State_Federal_Agency": "Governor",
+    "Category": "BIL",
+    "Date": "Oct 30, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/30/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "EPA Announces Historic $400M Clean Ports Investment in New Jersey and New York",
+    "Link": "https://www.epa.gov/newsreleases/epa-announces-historic-400m-clean-ports-investment-new-jersey",
+    "State_Federal_Agency": "US Environmental Protection Agency",
+    "Category": "IRA",
+    "Date": "Oct 30, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/30/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "President Joe Biden Announces $3 Billion to Strengthen Port Infrastructure, Create Good-Paying and Union Jobs, Bring Cleaner Air to Communities",
+    "Link": "https://www.whitehouse.gov/briefing-room/statements-releases/2024/10/29/fact-sheet-president-joe-biden-announces-3-billion-to-strengthen-port-infrastructure-create-good-paying-and-union-jobs-bring-cleaner-air-to-communities/",
+    "State_Federal_Agency": "White House",
+    "Category": "IRA",
+    "Date": "Oct 29, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/29/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration Announces $2.4 Billion in New Rail Projects to Improve Safety, Strengthen Supply Chains and Grow America’s Freight and Passenger Rail Networks",
+    "Link": "https://www.transportation.gov/briefing-room/investing-america-biden-harris-administration-announces-24-billion-new-rail-projects",
+    "State_Federal_Agency": "US Department of Transportation",
+    "Category": "BIL",
+    "Date": "Oct 29, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/29/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces $215 Million in Federal Funding for Replacement of Livingston Avenue Railroad Bridge",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-215-million-federal-funding-replacement-livingston-avenue-railroad",
+    "State_Federal_Agency": "Governor",
+    "Category": "BIL",
+    "Date": "Oct 25, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/25/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration Delivers Nearly $474 Million in New Grid Resilience Funding to States and Tribes as Part of Investing in America Agenda",
+    "Link": "https://www.energy.gov/articles/biden-harris-administration-delivers-nearly-474-million-new-grid-resilience-funding-states",
+    "State_Federal_Agency": "US Department of Energy",
+    "Category": "BIL",
+    "Date": "Oct 25, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/25/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "USDA Forest Service announces open grant opportunity to strengthen forest products economy and forest sector jobs as part of Biden-Harris Investing in America agenda",
+    "Link": "https://www.usda.gov/media/press-releases/2024/10/24/usda-forest-service-announces-open-grant-opportunity-strengthen?utm_source=substack&utm_medium=email",
+    "State_Federal_Agency": "US Department of Agriculture",
+    "Category": "BIL",
+    "Date": "Oct 24, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/24/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces the Start of Construction on a Critical $23 Million Sewer Project in the Village of Tivoli",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-start-construction-critical-23-million-sewer-project-village-tivoli",
+    "State_Federal_Agency": "Governor",
+    "Category": "BIL",
+    "Date": "Oct 24, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/24/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration Announces Nearly $1 Billion in Funding to Modernize Airport Terminals Across 46 States",
+    "Link": "https://www.transportation.gov/briefing-room/investing-america-biden-harris-administration-announces-nearly-1-billion-funding",
+    "State_Federal_Agency": "US Department of Transportation",
+    "Category": "BIL",
+    "Date": "Oct 24, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/24/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "New York Slated to Get a Total of Over $450M for Water Infrastructure Through Biden-Harris Investing in America Agenda",
+    "Link": "https://www.epa.gov/newsreleases/new-york-slated-get-total-over-450m-water-infrastructure-through-biden-harris",
+    "State_Federal_Agency": "US Environmental Protection Agency",
+    "Category": "BIL",
+    "Date": "Oct 23, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/23/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "President Joseph R. Biden, Jr. Approves New York Disaster Declaration",
+    "Link": "https://www.whitehouse.gov/briefing-room/presidential-actions/2024/10/21/president-joseph-r-biden-jr-approves-new-york-disaster-declaration-8/",
+    "State_Federal_Agency": "White House",
+    "Category": "",
+    "Date": "Oct 21, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/21/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces Start of $26.3 Million Project to Improve Resiliency Along U.S. Route 9W in Orange County",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-start-263-million-project-improve-resiliency-along-us-route-9w",
+    "State_Federal_Agency": "Governor",
+    "Category": "BIL",
+    "Date": "Oct 21, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/21/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration Announces More Than $4.2 Billion From the Bipartisan Infrastructure Law for Transformational, National Infrastructure Projects",
+    "Link": "https://www.transportation.gov/briefing-room/investing-america-biden-harris-administration-announces-more-42-billion-bipartisan",
+    "State_Federal_Agency": "US Department of Transportation",
+    "Category": "BIL",
+    "Date": "Oct 21, 2024",
+    "Sort Date [Jeff - Ignore this column]": "10/21/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
     "Article_Title": "Biden-Harris Administration Announces Additional $2 Billion to Protect the Grid Against Growing Threats of Extreme Weather, Expand Transmission",
     "Link": "https://www.energy.gov/articles/biden-harris-administration-announces-additional-2-billion-protect-grid-against-growing",
     "State_Federal_Agency": "US Department of Energy",
@@ -137,7 +317,7 @@
     "Date": "Oct 10, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/10/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "EPA Issues Test Order for PFAS Used in Manufacturing Under National Testing Strategy",
@@ -147,7 +327,7 @@
     "Date": "Oct 9, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/9/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Governor Hochul Announces Completion of More Than $31 Million Sewer Project in the City of Newburgh",
@@ -157,7 +337,7 @@
     "Date": "Oct 8, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/8/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Issues Final Rule Requiring Replacement of Lead Pipes Within 10 Years, Announces $116M in Funding to New York to Provide Clean Water to Schools and Homes",
@@ -167,7 +347,7 @@
     "Date": "Oct 8, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/8/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "EPA Removes New York’s Rochester Embayment from List of Most Polluted Areas in the Great Lakes",
@@ -177,7 +357,7 @@
     "Date": "Oct 8, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/8/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration, NOAA announce $15.3 million to improve climate projections of extreme weather",
@@ -187,7 +367,7 @@
     "Date": "Oct 8, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/8/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Proposes Rule to Simplify Shipping Processes for Truck Drivers, While Improving Supply Chains, and Reducing Energy Transportation Costs",
@@ -197,7 +377,7 @@
     "Date": "Oct 7, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/7/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Governor Hochul Announces $52.1 Million to Enhance Transportation Services for Older Citizens and People With Disabilities",
@@ -207,7 +387,7 @@
     "Date": "Oct 4, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/4/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "EPA Announces $30 Million to Help Small and Rural Communities Protect Public Health, Drinking Water, and Local Waterways",
@@ -217,7 +397,7 @@
     "Date": "Oct 4, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/4/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Governor Hochul Announces $24 Million Awarded for Innovation Projects in Multiple Clean Energy Sectors",
@@ -227,7 +407,7 @@
     "Date": "Oct 3, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/3/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Invests $1.5 Billion to Bolster the Nation's Electricity Grid and Deliver Affordable Electricity to Meet New Demands",
@@ -237,7 +417,7 @@
     "Date": "Oct 3, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/3/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Invests in Rural Projects to Strengthen American Infrastructure and Create Good-Paying Jobs in 30 States",
@@ -247,7 +427,7 @@
     "Date": "Oct 2, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/2/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Makes up to $7.7 Billion Available for Climate-Smart Practices on Agricultural Lands as Part of Investing in America Agenda",
@@ -257,7 +437,7 @@
     "Date": "Oct 2, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/2/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Invests in Rural Communities to Lower Energy Costs and Create Jobs in 34 States as Part of Investing in America Agenda",
@@ -267,7 +447,7 @@
     "Date": "Oct 2, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/2/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration, NOAA funds over $22.78 M to advance research of water-related climate impacts",
@@ -277,7 +457,7 @@
     "Date": "Oct 2, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/2/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Makes More Than $1 Billion in Additional Funding Available to Support America’s Passenger Rail Future",
@@ -287,7 +467,7 @@
     "Date": "Oct 1, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/1/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Sends $62 Billion to States from the Bipartisan Infrastructure Law for America’s Infrastructure",
@@ -297,7 +477,7 @@
     "Date": "Oct 1, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/1/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Releases Draft Guidance for States to Access up to $1.5 Billion from President Biden’s Investing in America Agenda to Address Legacy Pollution",
@@ -307,7 +487,7 @@
     "Date": "Oct 1, 2024",
     "Sort Date [Jeff - Ignore this column]": "10/1/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "During Climate Week NYC, Governor Hochul Announces Record Level of Funding Awarded for New York Farms to Address Impacts of Climate Change",
@@ -317,7 +497,7 @@
     "Date": "Sep 27, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/27/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Governor Hochul Announces Nearly $90 Million to Replace Lead Service Lines and Protect Drinking Water Across New York",
@@ -327,7 +507,7 @@
     "Date": "Sep 27, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/27/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Governor Hochul Announces Completion of $111 Million Coastal Resiliency Project on Staten Island",
@@ -337,7 +517,7 @@
     "Date": "Sep 27, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/27/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Makes $965M Available to Fund Clean School Buses that Reduce Pollution, Save Money, and Protect Children's Health",
@@ -347,7 +527,7 @@
     "Date": "Sep 26, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/26/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "EPA Announces $49 million in Technical Assistance to Help Rural, Small, and Tribal Communities Address Wastewater Challenges",
@@ -357,7 +537,7 @@
     "Date": "Sep 25, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/25/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Awards Nearly $17 Million to 23 State and Local Governments to Support Clean Energy Projects and Programs",
@@ -367,7 +547,7 @@
     "Date": "Sep 25, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/25/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Interior Department Announces $254 Million for Local Parks, Largest Investment Ever in Program’s History",
@@ -377,7 +557,7 @@
     "Date": "Sep 25, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/25/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "President Joseph R. Biden, Jr. Approves New York Disaster Declaration",
@@ -387,7 +567,7 @@
     "Date": "Sep 24, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/24/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "U.S. Department of the Treasury, IRS, and Department of Energy Announce Next Steps for 2024 Program Year of Inflation Reduction Act Program for Solar and Wind Energy in Low-Income Communities",
@@ -397,7 +577,7 @@
     "Date": "Sep 24, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/24/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Governor Hochul Joins With U.S. Climate Alliance Governors to Announce Climate-Ready Workforce Initiative, Aims to Train 1 Million New Registered Apprentices by 2035",
@@ -407,7 +587,7 @@
     "Date": "Sep 23, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/23/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Governor Hochul Announces Start of $38.2 Million Project to Complete Thruway’s Restoration of the Historic Castleton-on-Hudson Bridge Over Hudson River in Albany and Rensselaer Counties",
@@ -417,7 +597,7 @@
     "Date": "Sep 23, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/23/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "DHS Announces $279.9 million in Grant Funding for the Fiscal Year 2024 State and Local Cybersecurity Grant Program",
@@ -427,7 +607,7 @@
     "Date": "Sep 23, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/23/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces More Than $24 Million from Investing in America Agenda to Restore Our Nation’s Lands and Waters",
@@ -437,7 +617,7 @@
     "Date": "Sep 23, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/23/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces Nearly $715 Million to Help Communities Across the Nation Build Resilience to Flooding Disasters Through Investing in America Agenda",
@@ -447,7 +627,7 @@
     "Date": "Sep 23, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/23/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-⁠Harris Administration Takes Further Action to Strengthen and Secure Critical Mineral Supply Chains",
@@ -457,7 +637,7 @@
     "Date": "Sep 20, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/20/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "President Biden Approves Disaster Declaration for the Saint Regis Mohawk Tribe",
@@ -467,7 +647,7 @@
     "Date": "Sep 20, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/20/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Ahead of Climate Week, Governor Hochul Announces Additional $5.4 Million in Urban and Community Forestry Grant Awards to 17 Projects Across the State",
@@ -477,7 +657,7 @@
     "Date": "Sep 20, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/20/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Governor Hochul Requests Major Disaster Declaration from President Biden to Secure Federal Assistance for Communities Impacted by Severe Weather on August 18-19",
@@ -697,7 +877,7 @@
     "Date": "Sep 5, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/5/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Governor Hochul Highlights Nation-Leading Local Hire Initiative in Syracuse Under Landmark I-81 Viaduct Project",
@@ -707,7 +887,7 @@
     "Date": "Sep 4, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/4/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Governor Hochul Announces New York State’s Largest Electrified Bus Depot Operating in Buffalo",
@@ -717,7 +897,7 @@
     "Date": "Sep 3, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/3/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "U.S. Department of the Treasury Releases New Report Highlighting $3.5 Billion in Clean Energy Investments in Low-Income Communities",
@@ -727,7 +907,7 @@
     "Date": "Sep 3, 2024",
     "Sort Date [Jeff - Ignore this column]": "9/3/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces $62 Million to Support America’s Growing Hydrogen Industry",
@@ -737,7 +917,7 @@
     "Date": "Aug 30, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/30/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "FCC to Reignite 5G Fund to Target Investments in Rural Communities",
@@ -747,7 +927,7 @@
     "Date": "Aug 29, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/29/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "President Joseph R. Biden, Jr. Approves Disaster Declaration for New York",
@@ -757,7 +937,7 @@
     "Date": "Aug 29, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/29/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Biden-Harris Administration Awards More than $12 Million to 35 State, Local and Tribal Governments to Support Clean Energy Local Projects and Lower Energy Costs",
@@ -767,7 +947,7 @@
     "Date": "Aug 28, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/28/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces Over $240 Million for New and Innovative Building Codes to Save Consumers Money, Reduce Impacts of Climate Change",
@@ -777,7 +957,7 @@
     "Date": "Aug 27, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/27/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Number of Publicly Available Electric Vehicle Chargers Has Doubled Since Start of Biden-Harris Administration",
@@ -787,7 +967,7 @@
     "Date": "Aug 27, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/27/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Governor Hochul Announces $265 Million Investment to Make Water Infrastructure Projects Affordable Across New York State",
@@ -797,7 +977,7 @@
     "Date": "Aug 22, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/22/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces $26 Million in Grants to Protect Children from Lead in Drinking Water at Schools and Childcare Facilities",
@@ -807,7 +987,7 @@
     "Date": "Aug 22, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/22/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces $34M in Grants to Reduce Air Pollution at Schools in Low-Income, Disadvantaged, and Tribal Communities",
@@ -817,7 +997,7 @@
     "Date": "Aug 22, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/22/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces $53.6 Million to Expand Weatherization Assistance Program and Lower Costs for More American Households",
@@ -827,7 +1007,7 @@
     "Date": "Aug 21, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/21/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "FEMA Providing $40 Million to Improve Resilience and Security of Public Broadcasting’s Early Warning Systems",
@@ -837,7 +1017,7 @@
     "Date": "Aug 20, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/20/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "Joint Office White Paper Helps States Address EVSE Project Income",
@@ -847,7 +1027,7 @@
     "Date": "Aug 20, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/20/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "DOE Announces $127.5 Million for Test Centers To Advance Carbon Capture and Conversion Technologies",
@@ -857,7 +1037,7 @@
     "Date": "Aug 19, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/19/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   },
   {
     "Article_Title": "DOE Launches Community Benefits Map for Demonstration and Deployment Projects Funded by the IIJA and IRA",
@@ -867,6 +1047,6 @@
     "Date": "Aug 19, 2024",
     "Sort Date [Jeff - Ignore this column]": "8/19/2024",
     "Description": "",
-    "Archive": "TRUE"
+    "Archive": "FALSE"
   }
 ]
