@@ -1,5 +1,95 @@
 [
   {
+    "Article_Title": "Governor Hochul Announces Completion of $21.1 Million Project to Replace Adirondack Northway Bridges in Warren County",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-completion-211-million-project-replace-adirondack-northway-bridges",
+    "State_Federal_Agency": "Governor",
+    "Category": "BIL",
+    "Date": "Dec 6, 2024",
+    "Sort Date [Jeff - Ignore this column]": "12/6/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Final Investment Tax Credit Rules Address Hydrogen Storage",
+    "Link": "https://www.energy.gov/eere/fuelcells/articles/final-investment-tax-credit-rules-address-hydrogen-storage",
+    "State_Federal_Agency": "US Department of Energy",
+    "Category": "IRA",
+    "Date": "Dec 6, 2024",
+    "Sort Date [Jeff - Ignore this column]": "12/6/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Following Major Hurricanes, Biden-Harris Administration Provides $200 Million in Additional Funding to Strengthen Communities Against Floods",
+    "Link": "https://www.fema.gov/press-release/20241205/following-major-hurricanes-biden-harris-administration-provides-200-million",
+    "State_Federal_Agency": "US Department of Homeland Security",
+    "Category": "BIL",
+    "Date": "Dec 5, 2024",
+    "Sort Date [Jeff - Ignore this column]": "12/5/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "As Winter Weather Settles in Across New York, Governor Hochul Announces $100 Million to Enhance Pavement Resiliency in Every Corner of the State",
+    "Link": "https://www.governor.ny.gov/news/winter-weather-settles-across-new-york-governor-hochul-announces-100-million-enhance-pavement",
+    "State_Federal_Agency": "Governor",
+    "Category": "BIL",
+    "Date": "Dec 4, 2024",
+    "Sort Date [Jeff - Ignore this column]": "12/4/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Energy Department Announces Long-Term Regional Transmission Planning Support for States",
+    "Link": "https://www.energy.gov/gdo/articles/energy-department-announces-long-term-regional-transmission-planning-support-states",
+    "State_Federal_Agency": "US Department of Energy",
+    "Category": "",
+    "Date": "Dec 4, 2024",
+    "Sort Date [Jeff - Ignore this column]": "12/4/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration, National Fish and Wildlife Foundation Announce Over $122 Million from the America the Beautiful Challenge to Restore Lands and Waters",
+    "Link": "https://www.doi.gov/pressreleases/biden-harris-administration-national-fish-and-wildlife-foundation-announce-over-122",
+    "State_Federal_Agency": "US Department of the Interior",
+    "Category": "BIL",
+    "Date": "Dec 2, 2024",
+    "Sort Date [Jeff - Ignore this column]": "12/2/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces Official Reopening of Bridge Over Chaumont River in Jefferson County",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-official-reopening-bridge-over-chaumont-river-jefferson-county",
+    "State_Federal_Agency": "Governor",
+    "Category": "BIL",
+    "Date": "Nov 26, 2024",
+    "Sort Date [Jeff - Ignore this column]": "11/26/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration Announces $30 Million to Ease Interconnection Backlog, Deliver More Energy Supply on America’s Power Grid",
+    "Link": "https://www.energy.gov/articles/biden-harris-administration-announces-30-million-ease-interconnection-backlog-deliver-more",
+    "State_Federal_Agency": "US Department of Energy",
+    "Category": "BIL",
+    "Date": "Nov 25, 2024",
+    "Sort Date [Jeff - Ignore this column]": "11/25/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Biden-Harris Administration Announces Nearly $71 Million to Continue Strengthening America's Auto Communities, Expanding Battery Recycling, and Modernizing Manufacturing",
+    "Link": "https://www.energy.gov/articles/biden-harris-administration-announces-nearly-71-million-continue-strengthening-americas",
+    "State_Federal_Agency": "US Department of Energy",
+    "Category": "BIL",
+    "Date": "Nov 22, 2024",
+    "Sort Date [Jeff - Ignore this column]": "11/22/2024",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
     "Article_Title": "Biden-Harris Administration Announces Nearly $71 Million to Continue Strengthening America's Auto Communities, Expanding Battery Recycling, and Modernizing Manufacturing",
     "Link": "https://www.energy.gov/articles/biden-harris-administration-announces-nearly-71-million-continue-strengthening-americas",
     "State_Federal_Agency": "US Department of Energy",
@@ -157,7 +247,7 @@
     "Date": "Nov 7, 2024",
     "Sort Date [Jeff - Ignore this column]": "11/7/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces $16.6 Million to Eight States for Advanced Digital Construction Technologies to Expedite Delivery of Transportation Projects",
