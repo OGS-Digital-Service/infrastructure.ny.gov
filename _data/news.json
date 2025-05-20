@@ -1,5 +1,135 @@
 [
   {
+    "Article_Title": "Governor Hochul Announces 22 Transformational Projects in the North Country as Part of Downtown Revitalization Initiative and NY Forward Programs",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-22-transformational-projects-north-country-part-downtown",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "May 15, 2025",
+    "Sort Date [Jeff - Ignore this column]": "5/15/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces 20 Transformational Projects in Central New York as Part of Downtown Revitalization Initiative and NY Forward Programs",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-20-transformational-projects-central-new-york-part-downtown",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "May 15, 2025",
+    "Sort Date [Jeff - Ignore this column]": "5/15/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces Major Infrastructure Milestone as Part of the Transformative Interstate 81 Viaduct Project",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-major-infrastructure-milestone-part-transformative-interstate-81",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "May 13, 2025",
+    "Sort Date [Jeff - Ignore this column]": "5/13/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Signs New Legislation Making Transformative Investments in Transportation Infrastructure and Road Safety as Part of FY 2026 Budget",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-signs-new-legislation-making-transformative-investments-transportation",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "May 9, 2025",
+    "Sort Date [Jeff - Ignore this column]": "5/9/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces $5 Million in Infrastructure Improvements Underway in Onondaga and Oswego Counties",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-5-million-infrastructure-improvements-underway-onondaga-and-oswego",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "Apr 25, 2025",
+    "Sort Date [Jeff - Ignore this column]": "4/25/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "To Kick Off Earth Week, Governor Hochul Announces $4.85 Million Electric Vehicle Infrastructure Grants Awarded to Municipalities",
+    "Link": "https://www.governor.ny.gov/news/kick-earth-week-governor-hochul-announces-485-million-electric-vehicle-infrastructure-grants",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "Apr 21, 2025",
+    "Sort Date [Jeff - Ignore this column]": "4/21/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces Over $175 Million to Make Local Water Infrastructure Projects Affordable Across New York State",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-over-175-million-make-local-water-infrastructure-projects-affordable",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "Apr 17, 2025",
+    "Sort Date [Jeff - Ignore this column]": "4/17/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Transforming State Roadways: Governor Hochul Announces Start of $7 Million Project to Enhance Safety and Mobility at Key Intersections on Long Island",
+    "Link": "https://www.governor.ny.gov/news/transforming-state-roadways-governor-hochul-announces-start-7-million-project-enhance-safety",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "Apr 1, 2025",
+    "Sort Date [Jeff - Ignore this column]": "4/1/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces Nearly $50 Million Available Through an Expansion of the ConnectALL Municipal Infrastructure Program",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-nearly-50-million-available-through-expansion-connectall-municipal",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "Mar 27, 2025",
+    "Sort Date [Jeff - Ignore this column]": "3/27/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces $340 Million for Local Water Infrastructure Projects Across New York State",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-340-million-local-water-infrastructure-projects-across-new-york",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "Mar 13, 2025",
+    "Sort Date [Jeff - Ignore this column]": "3/13/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Invests $150 Million to Connect MacArthur Airport to LIRR's Ronkonkoma Station",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-invests-150-million-connect-macarthur-airport-lirrs-ronkonkoma-station",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "Feb 12, 2025",
+    "Sort Date [Jeff - Ignore this column]": "2/12/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Announces $60 Million for Electric Vehicle Charging Infrastructure",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-60-million-electric-vehicle-charging-infrastructure",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "Feb 10, 2025",
+    "Sort Date [Jeff - Ignore this column]": "2/10/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
+    "Article_Title": "Governor Hochul Highlights $273 Million to Make Local Water Infrastructure Projects Affordable Across New York State",
+    "Link": "https://www.governor.ny.gov/news/governor-hochul-highlights-273-million-make-local-water-infrastructure-projects-affordable",
+    "State_Federal_Agency": "Governor",
+    "Category": "",
+    "Date": "Jan 23, 2025",
+    "Sort Date [Jeff - Ignore this column]": "1/23/2025",
+    "Description": "",
+    "Archive": "FALSE"
+  },
+  {
     "Article_Title": "Governor Hochul Announces Corning to Invest More Than $315 Million and Create up to 300 Jobs at Semiconductor Glass Manufacturing Facility in North Country",
     "Link": "https://www.governor.ny.gov/news/governor-hochul-announces-corning-invest-more-315-million-and-create-300-jobs-semiconductor",
     "State_Federal_Agency": "Governor",
@@ -7,7 +137,7 @@
     "Date": "Jan 17, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/17/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "U.S. Department of Commerce Announces CHIPS Incentives Awards with Corning, Edwards Vacuum, and Infinera to Increase Domestic Production Capacity of Chips and Equipment Critical for U.S. Technological Leadership",
@@ -17,7 +147,7 @@
     "Date": "Jan 17, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/17/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "U.S. Department of the Treasury Releases Guidance on Domestic Content Bonus for Clean Energy Credits",
@@ -27,7 +157,7 @@
     "Date": "Jan 16, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/16/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "USDA Publishes Interim Rule on Technical Guidelines for Climate-Smart Agriculture Crops Used as Biofuel Feedstocks",
@@ -37,7 +167,7 @@
     "Date": "Jan 15, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/15/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "U.S. Department of Transportation Invests $635 Million to Expand Zero-Emissions EV Charging and Hydrogen Refueling Infrastructure",
@@ -47,7 +177,7 @@
     "Date": "Jan 15, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/15/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "DOE Announces $100 Million for Pilot-scale Carbon Conversion",
@@ -57,7 +187,7 @@
     "Date": "Jan 15, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/15/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-⁠Harris Administration Highlights Historic Food System Investments",
@@ -67,7 +197,7 @@
     "Date": "Jan 14, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/14/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "U.S. Department of Transportation Announces $1.89 Billion Loan to the Port Authority of New York and New Jersey for the Midtown Bus Terminal Reconstruction",
@@ -77,7 +207,7 @@
     "Date": "Jan 14, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/14/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "New Report Celebrates EPA’s Unprecedented Successes Under Biden-Harris Administration’s Investing in America Agenda",
@@ -87,7 +217,7 @@
     "Date": "Jan 13, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/13/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "U.S. Department of Energy Awards $11 Million to 49 State, Local and Tribal Governments to Support Community Energy Projects",
@@ -97,7 +227,7 @@
     "Date": "Jan 13, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/13/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces $1.32 Billion for Infrastructure Projects of Local and Regional Significance Nationwide",
@@ -107,7 +237,7 @@
     "Date": "Jan 10, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/10/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces $544 Million for Locally-Driven Projects to Reconnect Communities",
@@ -117,7 +247,7 @@
     "Date": "Jan 10, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/10/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "As Biden-Harris Administration Nears a Close, History-Making Progress Continues with Nearly $5 Billion Announced for 560+ Community-Led Projects in all 50 States",
@@ -127,7 +257,7 @@
     "Date": "Jan 10, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/10/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces Over $1.1 Billion in New Rail Grants to Reduce Train-Vehicle Collisions and Blocked Railroad Crossings",
@@ -137,7 +267,7 @@
     "Date": "Jan 10, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/10/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "USDA Invests in Additional Domestic Biofuels and Clean Energy Projects to Lower Costs and Increase American Energy Security Across the Nation",
@@ -147,7 +277,7 @@
     "Date": "Jan 10, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/10/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Governor Hochul Announces Completion of $3.5 Million Bridge Rehabilitation Project Along Interstate 81 in Onondaga County",
@@ -157,7 +287,7 @@
     "Date": "Jan 9, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/9/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces More Than $332 Million in Grants from Bipartisan Infrastructure Law to Modernize Airports in 32 States",
@@ -167,7 +297,7 @@
     "Date": "Jan 8, 2025",
     "Sort Date [Jeff - Ignore this column]": "1/8/2025",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Awards $125 Million in Grants to Improve Safety on America’s Roadways by Preventing Deadly Wildlife-Vehicle Crashes",
@@ -177,7 +307,7 @@
     "Date": "Dec 20, 2024",
     "Sort Date [Jeff - Ignore this column]": "12/20/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "DOE Re-opens Funding Opportunity, Making $500 Million Available to Build Out a Safe and Reliable National Carbon Transport Network",
@@ -187,7 +317,7 @@
     "Date": "Dec 20, 2024",
     "Sort Date [Jeff - Ignore this column]": "12/20/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces Additional $28.7 Million to Protect the Grid Against Extreme Weather",
@@ -197,7 +327,7 @@
     "Date": "Dec 20, 2024",
     "Sort Date [Jeff - Ignore this column]": "12/20/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "US Environmental Protection Agency and US Department of Energy Announce $850M to Reduce Methane Pollution from the Oil and Gas Sector",
@@ -207,7 +337,7 @@
     "Date": "Dec 20, 2024",
     "Sort Date [Jeff - Ignore this column]": "12/20/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-⁠Harris Administration Marks Progress Strengthening America’s Supply Chains",
@@ -217,7 +347,7 @@
     "Date": "Dec 19, 2024",
     "Sort Date [Jeff - Ignore this column]": "12/19/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "EPA Grants Waiver for California’s Advanced Clean Cars II Regulations",
@@ -227,7 +357,7 @@
     "Date": "Dec 18, 2024",
     "Sort Date [Jeff - Ignore this column]": "12/18/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Governor Hochul Announces Additional $28.5 Million is Now Available to Install Electric Vehicle Fast Chargers Along Major Travel Corridors Across New York State",
@@ -237,7 +367,7 @@
     "Date": "Dec 18, 2024",
     "Sort Date [Jeff - Ignore this column]": "12/18/2024",
     "Description": "",
-    "Archive": "FALSE"
+    "Archive": "TRUE"
   },
   {
     "Article_Title": "Biden-Harris Administration Announces $130 million in Funding to Scale Technology Solutions that Address Pressing Transportation Challenges in 23 States",
